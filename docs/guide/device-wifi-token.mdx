@@ -1,0 +1,75 @@
+---
+id: device-wifi-token
+title: Device Wi-Fi Setup and Token
+---
+
+import VideoPlaceholder from '@site/src/components/VideoPlaceholder';
+
+# Device Wi-Fi Setup and Token
+
+Before using the web app, the device must be connected to the internet through Wi-Fi. If the device has already been configured, it should reconnect to Wi-Fi automatically when powered on.
+
+If the device has not been configured yet, follow the steps below. You will also see the device token at the end of the setup flow.
+
+## 1. Start Wi-Fi Configuration Mode
+
+Press and hold the `Up` button for 5 seconds, until the light flashes quickly.
+
+<img
+  src="/images/guide/wifi-config-mode.png"
+  alt="Start Wi-Fi configuration mode"
+  width="480"
+/>
+
+## 2. Connect to the Device Hotspot
+
+On your phone or PC, open the Wi-Fi network list and connect to the device hotspot named `ssid_xxxx`.
+
+Enter the password `12345678` when prompted.
+
+<img
+  src="/images/guide/wifi-config-hotspot.jpg"
+  alt="Connect to the device hotspot"
+  width="360"
+/>
+
+## 3. Configure the Device Wi-Fi
+
+After connecting to the device hotspot, the device Wi-Fi setup page should open automatically.
+
+:::tip
+If it does not open, open [http://192.168.4.1](http://192.168.4.1) in your browser.
+:::
+
+Choose the Wi-Fi network that you want the device to use. Make sure this Wi-Fi network can access the internet.
+
+Enter the Wi-Fi password, then tap `Start setup`.
+
+<img
+  src="/images/guide/wifi-config-setup.jpg"
+  alt="Select Wi-Fi and start setup"
+  width="360"
+/>
+
+## 4. Record the Device Token
+
+The device will try to connect to Wi-Fi and the internet. When the setup page shows the device token, record it.
+
+You will use this token to connect and control the device from the web app.
+
+<img
+  src="/images/guide/wifi-config-token.jpg"
+  alt="Device token after Wi-Fi setup"
+  width="360"
+/>
+
+## Video Walkthrough
+
+<VideoPlaceholder
+  title="Wi-Fi setup walkthrough video"
+  description="To be added: a short video showing Wi-Fi configuration and token lookup."
+/>
+
+## Next Step
+
+After the device is online and you have the token, continue to [Quick Start](/guide/quick-start/).

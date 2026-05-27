@@ -1,0 +1,41 @@
+.placeholder {
+  margin: 24px 0;
+  border: 1px dashed #c6bdac;
+  background: #f8f4ec;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.preview {
+  min-height: 180px;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(135deg, rgba(215, 178, 94, 0.16), rgba(31, 122, 109, 0.1)),
+    #f8f4ec;
+}
+
+.play {
+  display: inline-grid;
+  place-items: center;
+  width: 72px;
+  height: 44px;
+  border-radius: 999px;
+  background: #1f7a6d;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.placeholder figcaption {
+  margin: 0;
+  padding: 14px 16px;
+  display: grid;
+  gap: 4px;
+  color: #3f3a31;
+}
+
+.placeholder figcaption span {
+  color: #756b5d;
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.placeholder {
+  margin: 24px 0;
+  border: 1px dashed #b7c7c2;
+  background: #f5f7f3;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.preview {
+  min-height: 180px;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(135deg, rgba(31, 122, 109, 0.12), rgba(215, 178, 94, 0.12)),
+    repeating-linear-gradient(45deg, transparent 0 12px, rgba(31, 122, 109, 0.05) 12px 24px);
+}
+
+.icon {
+  display: inline-grid;
+  place-items: center;
+  width: 64px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid rgba(31, 122, 109, 0.4);
+  color: #1f7a6d;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.placeholder figcaption {
+  margin: 0;
+  padding: 14px 16px;
+  display: grid;
+  gap: 4px;
+  color: #34423f;
+}
+
+.placeholder figcaption span {
+  color: #68736f;
+  font-size: 14px;
+}

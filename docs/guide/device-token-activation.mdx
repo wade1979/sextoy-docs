@@ -1,0 +1,49 @@
+---
+id: device-token-activation
+title: Device Token and Email Activation
+---
+
+import VideoPlaceholder from '@site/src/components/VideoPlaceholder';
+
+# Device Token and Email Activation
+
+Product access is centered on the device token. Email is used to activate device entitlements for AI features; it is not a traditional username-and-password login.
+
+## What Is a Device Token?
+
+A `device token` identifies the device when connecting through the web app. After you enter the token on the connection page, the app attempts to establish a real-time connection.
+
+After a successful connection, the app may keep the current token in the browser so it is easier to reconnect next time.
+
+## What Is Email Activation?
+
+AI Mode requires the device to be bound to an email address. The app may ask you to activate email so it can save AI-related entitlements for the device.
+
+After activation, custom AI companions and official recommended characters are associated with that email address.
+
+Activation flow:
+
+1. Tap the unactivated-email prompt or email entry point.
+2. Enter your email address.
+3. Tap `Send code` to receive a verification code.
+4. Enter the 6-digit verification code.
+5. Tap `Activate` to finish activation.
+
+<img
+  src="/images/guide/email-activation.png"
+  alt="Email activation dialog"
+  width="360"
+/>
+
+## No Traditional Account Flow
+
+The current web app does not include traditional registration, login, or password recovery. This guide describes email activation as an activation step, not as a login flow.
+
+## No Email Unbind Entry Yet
+
+Based on the current frontend, the product supports email binding/activation, status checks, and device authentication. It does not currently show a clear email unbind entry. If unbinding is added later, this guide should include a separate section for it.
+
+<VideoPlaceholder
+  title="Email activation walkthrough video"
+  description="To be added: a short walkthrough for entering an email, sending a code, and completing activation."
+/>
