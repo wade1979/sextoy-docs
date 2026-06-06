@@ -19,10 +19,25 @@ const sidebars: SidebarsConfig = {
     'downloads',
     {
       type: 'category',
-      label: 'Help & FAQ',
+      label: 'Support',
       items: [
-        'troubleshooting/troubleshooting',
+        'support/support',
         'faq',
+        'troubleshooting/troubleshooting',
+        'support/warranty-policy',
+        'support/returns-exchanges',
+        'support/quality-assurance',
+        'support/contact-support',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Privacy & Legal',
+      items: [
+        'legal/privacy-legal',
+        'legal/privacy-policy',
+        'legal/data-policy',
+        'legal/terms-of-use',
       ],
     },
     {

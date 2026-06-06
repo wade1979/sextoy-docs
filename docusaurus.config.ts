@@ -57,8 +57,8 @@ const config: Config = {
           label: 'User Guide',
         },
         {
-          to: '/faq',
-          label: 'FAQ',
+          to: '/support/',
+          label: 'Support',
           position: 'left',
         },
         {
@@ -66,10 +66,51 @@ const config: Config = {
           label: 'Downloads',
           position: 'left',
         },
+        {
+          to: '/legal/',
+          label: 'Privacy & Legal',
+          position: 'left',
+        },
       ],
     },
     footer: {
       style: 'light',
+      links: [
+        {
+          title: 'Support',
+          items: [
+            {
+              label: 'Help & FAQ',
+              to: '/faq/',
+            },
+            {
+              label: 'Warranty Policy',
+              to: '/support/warranty-policy/',
+            },
+            {
+              label: 'Contact Support',
+              to: '/support/contact-support/',
+            },
+          ],
+        },
+        {
+          title: 'Privacy & Legal',
+          items: [
+            {
+              label: 'Privacy Policy',
+              to: '/legal/privacy-policy/',
+            },
+            {
+              label: 'Data Policy',
+              to: '/legal/data-policy/',
+            },
+            {
+              label: 'Terms of Use',
+              to: '/legal/terms-of-use/',
+            },
+          ],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Product Guide.`,
     },
     prism: {
