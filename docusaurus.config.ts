@@ -67,7 +67,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          to: '/legal/',
+          to: '/legal/privacy-policy/',
           label: 'Privacy & Legal',
           position: 'left',
         },
@@ -88,6 +88,10 @@ const config: Config = {
               to: '/support/warranty-policy/',
             },
             {
+              label: 'Returns & Exchanges',
+              to: '/support/returns-exchanges/',
+            },
+            {
               label: 'Contact Support',
               to: '/support/contact-support/',
             },
@@ -101,12 +105,12 @@ const config: Config = {
               to: '/legal/privacy-policy/',
             },
             {
-              label: 'Data Policy',
-              to: '/legal/data-policy/',
-            },
-            {
               label: 'Terms of Use',
               to: '/legal/terms-of-use/',
+            },
+            {
+              label: 'AI & Data Practices',
+              to: '/legal/ai-data-practices/',
             },
           ],
         },

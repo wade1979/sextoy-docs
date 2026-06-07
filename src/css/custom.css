@@ -37,3 +37,126 @@ body {
 .theme-doc-sidebar-container {
   border-right: 1px solid #e7e2d9 !important;
 }
+
+.theme-doc-sidebar-container .menu__link[href*="/guide/motion-intelligence"],
+.theme-doc-sidebar-container .menu__link[href="/guide/ai-companion/"],
+.theme-doc-sidebar-container .menu__link[href="/guide/modes/ai-companion/"] {
+  position: relative;
+  color: #157466;
+  font-weight: 750;
+}
+
+.theme-doc-sidebar-container .menu__link[href*="/guide/motion-intelligence"]::before,
+.theme-doc-sidebar-container .menu__link[href="/guide/ai-companion/"]::before,
+.theme-doc-sidebar-container .menu__link[href="/guide/modes/ai-companion/"]::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-right: 0.5rem;
+  border-radius: 999px;
+  background: #1f7a6d;
+  box-shadow: 0 0 0 4px rgba(31, 122, 109, 0.1);
+}
+
+.theme-doc-sidebar-container .menu__link[href*="/guide/motion-intelligence"]:not(.menu__link--active),
+.theme-doc-sidebar-container .menu__link[href="/guide/ai-companion/"]:not(.menu__link--active),
+.theme-doc-sidebar-container .menu__link[href="/guide/modes/ai-companion/"]:not(.menu__link--active) {
+  background: rgba(31, 122, 109, 0.055);
+}
+
+.motion-flow,
+.motion-orchestration {
+  max-width: 520px;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid #e7e2d9;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.motion-flow__step,
+.motion-orchestration__item {
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(31, 122, 109, 0.22);
+  border-radius: 8px;
+  background: rgba(31, 122, 109, 0.08);
+  color: #1f5f57;
+  font-weight: 700;
+  text-align: center;
+}
+
+.motion-flow__arrow,
+.motion-orchestration__arrow {
+  color: #77746f;
+  font-size: 1.35rem;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.motion-samples {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.motion-sample {
+  padding: 1rem;
+  border: 1px solid #e7e2d9;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.motion-sample h3 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.motion-sample p {
+  margin: 0;
+  color: #60656f;
+}
+
+.motion-sample__visual {
+  height: 80px;
+  border: 1px dashed #b8c8c4;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(31, 122, 109, 0.1), rgba(251, 251, 248, 0.9)),
+    #fbfbf8;
+}
+
+.motion-orchestration__track {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.motion-orchestration__item--center {
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.motion-feedback {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.motion-feedback div {
+  padding: 0.75rem 0.85rem;
+  border: 1px solid #e7e2d9;
+  border-radius: 8px;
+  background: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .motion-samples,
+  .motion-feedback,
+  .motion-orchestration__track {
+    grid-template-columns: 1fr;
+  }
+}
