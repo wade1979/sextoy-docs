@@ -64,8 +64,7 @@ body {
   background: rgba(31, 122, 109, 0.055);
 }
 
-.motion-flow,
-.motion-orchestration {
+.motion-flow {
   max-width: 520px;
   margin: 1.5rem 0;
   padding: 1.25rem;
@@ -74,8 +73,7 @@ body {
   background: #ffffff;
 }
 
-.motion-flow__step,
-.motion-orchestration__item {
+.motion-flow__step {
   padding: 0.85rem 1rem;
   border: 1px solid rgba(31, 122, 109, 0.22);
   border-radius: 8px;
@@ -85,8 +83,7 @@ body {
   text-align: center;
 }
 
-.motion-flow__arrow,
-.motion-orchestration__arrow {
+.motion-flow__arrow {
   color: #77746f;
   font-size: 1.35rem;
   line-height: 1.8;
@@ -126,15 +123,15 @@ body {
     #fbfbf8;
 }
 
-.motion-orchestration__track {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-}
-
-.motion-orchestration__item--center {
-  max-width: 240px;
-  margin: 0 auto;
+.motion-value {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 4px solid #1f7a6d;
+  border-radius: 8px;
+  background: rgba(31, 122, 109, 0.08);
+  color: #165f55;
+  font-size: 1.1rem;
+  font-weight: 800;
 }
 
 .motion-feedback {
@@ -155,8 +152,7 @@ body {
 
 @media (max-width: 640px) {
   .motion-samples,
-  .motion-feedback,
-  .motion-orchestration__track {
+  .motion-feedback {
     grid-template-columns: 1fr;
   }
 }
