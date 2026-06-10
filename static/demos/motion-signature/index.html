@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How Motion Intelligence Works</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Motion Intelligence Demo</p>
+          <h1>How Motion Intelligence Works</h1>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section class="module learning-module">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">01 / Expert Technique Learning</p>
+            <h2>Human Motion → Motion Curve → Motion Signature</h2>
+          </div>
+          <div class="carousel-controls">
+            <button class="icon-btn" id="prevTechnique" aria-label="Previous technique">‹</button>
+            <div class="dots" id="techniqueDots"></div>
+            <button class="icon-btn" id="nextTechnique" aria-label="Next technique">›</button>
+          </div>
+        </div>
+
+        <div class="technique-meta">
+          <div>
+            <span id="techniqueName">Loading</span>
+            <small id="techniqueMotion"></small>
+          </div>
+          <div class="stats" id="techniqueStats"></div>
+        </div>
+
+        <div class="learning-grid">
+          <article class="panel video-panel">
+            <div class="panel-label">
+              <span>Human Motion Video</span>
+              <b>Raw expert motion</b>
+            </div>
+            <video id="motionVideo" autoplay muted playsinline></video>
+          </article>
+
+          <article class="panel curve-panel">
+            <div class="panel-label">
+              <span>Raw Motion Curve</span>
+              <b>Phase over time</b>
+            </div>
+            <canvas id="curveCanvas" width="720" height="420"></canvas>
+          </article>
+
+          <article class="panel signature-panel">
+            <div class="panel-label">
+              <span>Motion Signature</span>
+              <b>Library</b>
+            </div>
+            <canvas id="signatureCanvas" width="720" height="420"></canvas>
+            <div class="seed-list" id="seedList"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="module engine-module">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">02 / Real-time AI Choreography</p>
+            <h2>Motion Signatures → AI Motion Engine → Adaptive Session Timeline</h2>
+          </div>
+        </div>
+
+        <div class="engine-stage">
+          <div class="signature-bank" id="signatureBank"></div>
+          <svg class="flow-field" viewBox="0 0 1200 560" role="img" aria-label="AI motion engine flow">
+            <defs>
+              <linearGradient id="flowGradient" x1="0%" x2="100%" y1="0%" y2="0%">
+                <stop offset="0%" stop-color="#78dce8" />
+                <stop offset="54%" stop-color="#f4d35e" />
+                <stop offset="100%" stop-color="#ff7a90" />
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="7" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+            <g class="score-rings">
+              <circle cx="600" cy="250" r="104"></circle>
+              <circle cx="600" cy="250" r="116"></circle>
+              <circle cx="600" cy="250" r="128"></circle>
+            </g>
+            <g class="engine-core" filter="url(#glow)">
+              <circle cx="600" cy="250" r="84"></circle>
+              <circle cx="600" cy="250" r="46"></circle>
+              <text x="600" y="244">AI Motion</text>
+              <text x="600" y="270">Engine</text>
+            </g>
+            <path class="flow-line flow-a" d="M126 115 C285 148 410 185 530 230" />
+            <path class="flow-line flow-b" d="M363 115 C455 150 520 185 570 218" />
+            <path class="flow-line flow-c" d="M600 115 C600 150 600 188 600 218" />
+            <path class="flow-line flow-d" d="M837 115 C745 150 680 185 636 218" />
+            <path class="flow-line flow-e" d="M1074 115 C915 148 790 185 670 230" />
+            <path class="context-flow signal-flow" d="M258 282 C385 278 485 260 535 246" />
+            <path class="context-flow profile-flow" d="M942 282 C815 278 715 260 665 246" />
+            <path class="output-line" d="M600 334 C600 390 515 418 360 432 C230 444 165 467 160 498" />
+            <path class="output-line delay-1" d="M600 334 C610 385 675 414 800 431 C965 453 1040 468 1050 498" />
+            <g class="particles">
+              <circle r="5" class="particle p1"></circle>
+              <circle r="4" class="particle p2"></circle>
+              <circle r="6" class="particle p3"></circle>
+              <circle r="4" class="particle p4"></circle>
+              <circle r="5" class="particle p5"></circle>
+              <circle r="4" class="particle p6"></circle>
+              <circle r="5" class="particle p7"></circle>
+            </g>
+          </svg>
+          <div class="engine-context signals-context">
+            <strong>Live User Signals</strong>
+            <div class="signal-chips">
+              <span>Like</span>
+              <span>Skip</span>
+              <span>Faster</span>
+              <span>Slower</span>
+              <span>Stronger</span>
+              <span>Gentler</span>
+            </div>
+          </div>
+          <div class="engine-context profile-context">
+            <strong>Preference Profile</strong>
+            <canvas id="profileCanvas" width="260" height="118"></canvas>
+            <span>learned weights</span>
+          </div>
+          <div class="timeline-wrap">
+            <canvas id="timelineCanvas" width="1080" height="180"></canvas>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5508 @@
+{
+  "generatedAt": "2026-06-10T11:08:50.048Z",
+  "title": "Motion Signature Explainer",
+  "techniques": [
+    {
+      "id": "mountain-flow",
+      "sourceName": "高山流水",
+      "name": "Mountain Flow",
+      "video": "highmountain720p_runway.mp4",
+      "motion": "Gentle caresses that build into a flowing repeated rhythm",
+      "signature": "Gradual caress + flowing progression",
+      "videoSrc": "assets/mountain-flow/highmountain720p_runway.mp4",
+      "trajectoryImage": "assets/mountain-flow/trajectory.png",
+      "cycleOverlayImage": "assets/mountain-flow/cycle_overlay.png",
+      "repetitionImage": "assets/mountain-flow/repetition_boundaries.png",
+      "motionSeriesSrc": "assets/mountain-flow/motion_series.json",
+      "stats": {
+        "fps": 60,
+        "frames": 3779,
+        "width": 1920,
+        "height": 1080,
+        "cycleCount": 40,
+        "avgCycleDuration": 1.51,
+        "periodSec": 1.48,
+        "coverage": {
+          "left": 1,
+          "right": 1
+        }
+      },
+      "candidateSeeds": [
+        {
+          "cycle": 0,
+          "startFrame": 85,
+          "endFrame": 201,
+          "startTime": 1.4166666666666667,
+          "endTime": 3.35,
+          "duration": 1.9333333333333333,
+          "span": 116,
+          "score": 0.9
+        },
+        {
+          "cycle": 1,
+          "startFrame": 201,
+          "endFrame": 309,
+          "startTime": 3.35,
+          "endTime": 5.15,
+          "duration": 1.8000000000000003,
+          "span": 108,
+          "score": 0.92
+        },
+        {
+          "cycle": 2,
+          "startFrame": 309,
+          "endFrame": 413,
+          "startTime": 5.15,
+          "endTime": 6.883333333333333,
+          "duration": 1.7333333333333325,
+          "span": 104,
+          "score": 0.93
+        },
+        {
+          "cycle": 3,
+          "startFrame": 413,
+          "endFrame": 515,
+          "startTime": 6.883333333333333,
+          "endTime": 8.583333333333334,
+          "duration": 1.700000000000001,
+          "span": 102,
+          "score": 0.94
+        },
+        {
+          "cycle": 4,
+          "startFrame": 515,
+          "endFrame": 617,
+          "startTime": 8.583333333333334,
+          "endTime": 10.283333333333333,
+          "duration": 1.6999999999999993,
+          "span": 102,
+          "score": 0.94
+        },
+        {
+          "cycle": 5,
+          "startFrame": 617,
+          "endFrame": 720,
+          "startTime": 10.283333333333333,
+          "endTime": 12,
+          "duration": 1.7166666666666668,
+          "span": 103,
+          "score": 0.93
+        },
+        {
+          "cycle": 6,
+          "startFrame": 720,
+          "endFrame": 805,
+          "startTime": 12,
+          "endTime": 13.416666666666666,
+          "duration": 1.416666666666666,
+          "span": 85,
+          "score": 0.95
+        },
+        {
+          "cycle": 7,
+          "startFrame": 805,
+          "endFrame": 910,
+          "startTime": 13.416666666666666,
+          "endTime": 15.166666666666666,
+          "duration": 1.75,
+          "span": 105,
+          "score": 0.93
+        },
+        {
+          "cycle": 8,
+          "startFrame": 910,
+          "endFrame": 1002,
+          "startTime": 15.166666666666666,
+          "endTime": 16.7,
+          "duration": 1.5333333333333332,
+          "span": 92,
+          "score": 0.96
+        },
+        {
+          "cycle": 9,
+          "startFrame": 1002,
+          "endFrame": 1094,
+          "startTime": 16.7,
+          "endTime": 18.233333333333334,
+          "duration": 1.533333333333335,
+          "span": 92,
+          "score": 0.96
+        },
+        {
+          "cycle": 10,
+          "startFrame": 1094,
+          "endFrame": 1184,
+          "startTime": 18.233333333333334,
+          "endTime": 19.733333333333334,
+          "duration": 1.5,
+          "span": 90,
+          "score": 0.96
+        },
+        {
+          "cycle": 11,
+          "startFrame": 1184,
+          "endFrame": 1283,
+          "startTime": 19.733333333333334,
+          "endTime": 21.383333333333333,
+          "duration": 1.6499999999999986,
+          "span": 99,
+          "score": 0.94
+        },
+        {
+          "cycle": 12,
+          "startFrame": 1283,
+          "endFrame": 1385,
+          "startTime": 21.383333333333333,
+          "endTime": 23.083333333333332,
+          "duration": 1.6999999999999993,
+          "span": 102,
+          "score": 0.94
+        },
+        {
+          "cycle": 13,
+          "startFrame": 1385,
+          "endFrame": 1480,
+          "startTime": 23.083333333333332,
+          "endTime": 24.666666666666668,
+          "duration": 1.5833333333333357,
+          "span": 95,
+          "score": 0.96
+        },
+        {
+          "cycle": 14,
+          "startFrame": 1480,
+          "endFrame": 1573,
+          "startTime": 24.666666666666668,
+          "endTime": 26.216666666666665,
+          "duration": 1.5499999999999972,
+          "span": 93,
+          "score": 0.96
+        },
+        {
+          "cycle": 15,
+          "startFrame": 1573,
+          "endFrame": 1664,
+          "startTime": 26.216666666666665,
+          "endTime": 27.733333333333334,
+          "duration": 1.5166666666666693,
+          "span": 91,
+          "score": 0.97
+        },
+        {
+          "cycle": 16,
+          "startFrame": 1664,
+          "endFrame": 1741,
+          "startTime": 27.733333333333334,
+          "endTime": 29.016666666666666,
+          "duration": 1.2833333333333314,
+          "span": 77,
+          "score": 0.93
+        },
+        {
+          "cycle": 17,
+          "startFrame": 1741,
+          "endFrame": 1827,
+          "startTime": 29.016666666666666,
+          "endTime": 30.45,
+          "duration": 1.4333333333333336,
+          "span": 86,
+          "score": 0.95
+        },
+        {
+          "cycle": 18,
+          "startFrame": 1827,
+          "endFrame": 1917,
+          "startTime": 30.45,
+          "endTime": 31.95,
+          "duration": 1.5,
+          "span": 90,
+          "score": 0.96
+        },
+        {
+          "cycle": 19,
+          "startFrame": 1917,
+          "endFrame": 1997,
+          "startTime": 31.95,
+          "endTime": 33.28333333333333,
+          "duration": 1.3333333333333321,
+          "span": 80,
+          "score": 0.94
+        },
+        {
+          "cycle": 20,
+          "startFrame": 1997,
+          "endFrame": 2091,
+          "startTime": 33.28333333333333,
+          "endTime": 34.85,
+          "duration": 1.56666666666667,
+          "span": 94,
+          "score": 0.96
+        },
+        {
+          "cycle": 21,
+          "startFrame": 2091,
+          "endFrame": 2179,
+          "startTime": 34.85,
+          "endTime": 36.31666666666666,
+          "duration": 1.4666666666666615,
+          "span": 88,
+          "score": 0.96
+        },
+        {
+          "cycle": 22,
+          "startFrame": 2179,
+          "endFrame": 2270,
+          "startTime": 36.31666666666666,
+          "endTime": 37.833333333333336,
+          "duration": 1.5166666666666728,
+          "span": 91,
+          "score": 0.97
+        },
+        {
+          "cycle": 23,
+          "startFrame": 2270,
+          "endFrame": 2355,
+          "startTime": 37.833333333333336,
+          "endTime": 39.25,
+          "duration": 1.4166666666666643,
+          "span": 85,
+          "score": 0.95
+        },
+        {
+          "cycle": 24,
+          "startFrame": 2355,
+          "endFrame": 2451,
+          "startTime": 39.25,
+          "endTime": 40.85,
+          "duration": 1.6000000000000014,
+          "span": 96,
+          "score": 0.95
+        },
+        {
+          "cycle": 25,
+          "startFrame": 2451,
+          "endFrame": 2531,
+          "startTime": 40.85,
+          "endTime": 42.18333333333333,
+          "duration": 1.3333333333333286,
+          "span": 80,
+          "score": 0.94
+        },
+        {
+          "cycle": 26,
+          "startFrame": 2531,
+          "endFrame": 2618,
+          "startTime": 42.18333333333333,
+          "endTime": 43.63333333333333,
+          "duration": 1.4500000000000028,
+          "span": 87,
+          "score": 0.96
+        },
+        {
+          "cycle": 27,
+          "startFrame": 2618,
+          "endFrame": 2703,
+          "startTime": 43.63333333333333,
+          "endTime": 45.05,
+          "duration": 1.4166666666666643,
+          "span": 85,
+          "score": 0.95
+        },
+        {
+          "cycle": 28,
+          "startFrame": 2703,
+          "endFrame": 2792,
+          "startTime": 45.05,
+          "endTime": 46.53333333333333,
+          "duration": 1.4833333333333343,
+          "span": 89,
+          "score": 0.96
+        },
+        {
+          "cycle": 29,
+          "startFrame": 2792,
+          "endFrame": 2894,
+          "startTime": 46.53333333333333,
+          "endTime": 48.233333333333334,
+          "duration": 1.7000000000000028,
+          "span": 102,
+          "score": 0.94
+        },
+        {
+          "cycle": 30,
+          "startFrame": 2894,
+          "endFrame": 2983,
+          "startTime": 48.233333333333334,
+          "endTime": 49.71666666666667,
+          "duration": 1.4833333333333343,
+          "span": 89,
+          "score": 0.96
+        },
+        {
+          "cycle": 31,
+          "startFrame": 2983,
+          "endFrame": 3067,
+          "startTime": 49.71666666666667,
+          "endTime": 51.11666666666667,
+          "duration": 1.3999999999999986,
+          "span": 84,
+          "score": 0.95
+        },
+        {
+          "cycle": 32,
+          "startFrame": 3067,
+          "endFrame": 3156,
+          "startTime": 51.11666666666667,
+          "endTime": 52.6,
+          "duration": 1.4833333333333343,
+          "span": 89,
+          "score": 0.96
+        },
+        {
+          "cycle": 33,
+          "startFrame": 3156,
+          "endFrame": 3244,
+          "startTime": 52.6,
+          "endTime": 54.06666666666666,
+          "duration": 1.4666666666666615,
+          "span": 88,
+          "score": 0.96
+        },
+        {
+          "cycle": 34,
+          "startFrame": 3244,
+          "endFrame": 3322,
+          "startTime": 54.06666666666666,
+          "endTime": 55.36666666666667,
+          "duration": 1.3000000000000043,
+          "span": 78,
+          "score": 0.93
+        },
+        {
+          "cycle": 35,
+          "startFrame": 3322,
+          "endFrame": 3404,
+          "startTime": 55.36666666666667,
+          "endTime": 56.733333333333334,
+          "duration": 1.3666666666666671,
+          "span": 82,
+          "score": 0.94
+        },
+        {
+          "cycle": 36,
+          "startFrame": 3404,
+          "endFrame": 3482,
+          "startTime": 56.733333333333334,
+          "endTime": 58.03333333333333,
+          "duration": 1.2999999999999972,
+          "span": 78,
+          "score": 0.93
+        },
+        {
+          "cycle": 37,
+          "startFrame": 3482,
+          "endFrame": 3556,
+          "startTime": 58.03333333333333,
+          "endTime": 59.266666666666666,
+          "duration": 1.2333333333333343,
+          "span": 74,
+          "score": 0.92
+        },
+        {
+          "cycle": 38,
+          "startFrame": 3556,
+          "endFrame": 3629,
+          "startTime": 59.266666666666666,
+          "endTime": 60.483333333333334,
+          "duration": 1.2166666666666686,
+          "span": 73,
+          "score": 0.92
+        },
+        {
+          "cycle": 39,
+          "startFrame": 3629,
+          "endFrame": 3716,
+          "startTime": 60.483333333333334,
+          "endTime": 61.93333333333333,
+          "duration": 1.4499999999999957,
+          "span": 87,
+          "score": 0.96
+        }
+      ],
+      "seeds": [
+        {
+          "cycle": 8,
+          "startFrame": 910,
+          "endFrame": 1002,
+          "startTime": 15.166666666666666,
+          "endTime": 16.7,
+          "duration": 1.5333333333333332,
+          "span": 92,
+          "score": 0.96
+        },
+        {
+          "cycle": 15,
+          "startFrame": 1573,
+          "endFrame": 1664,
+          "startTime": 26.216666666666665,
+          "endTime": 27.733333333333334,
+          "duration": 1.5166666666666693,
+          "span": 91,
+          "score": 0.97
+        },
+        {
+          "cycle": 22,
+          "startFrame": 2179,
+          "endFrame": 2270,
+          "startTime": 36.31666666666666,
+          "endTime": 37.833333333333336,
+          "duration": 1.5166666666666728,
+          "span": 91,
+          "score": 0.97
+        }
+      ],
+      "intervals": [
+        {
+          "cycle": 0,
+          "startFrame": 85,
+          "endFrame": 201,
+          "startTime": 1.4166666666666667,
+          "endTime": 3.35,
+          "duration": 1.9333333333333333
+        },
+        {
+          "cycle": 1,
+          "startFrame": 201,
+          "endFrame": 309,
+          "startTime": 3.35,
+          "endTime": 5.15,
+          "duration": 1.8000000000000003
+        },
+        {
+          "cycle": 2,
+          "startFrame": 309,
+          "endFrame": 413,
+          "startTime": 5.15,
+          "endTime": 6.883333333333333,
+          "duration": 1.7333333333333325
+        },
+        {
+          "cycle": 3,
+          "startFrame": 413,
+          "endFrame": 515,
+          "startTime": 6.883333333333333,
+          "endTime": 8.583333333333334,
+          "duration": 1.700000000000001
+        },
+        {
+          "cycle": 4,
+          "startFrame": 515,
+          "endFrame": 617,
+          "startTime": 8.583333333333334,
+          "endTime": 10.283333333333333,
+          "duration": 1.6999999999999993
+        },
+        {
+          "cycle": 5,
+          "startFrame": 617,
+          "endFrame": 720,
+          "startTime": 10.283333333333333,
+          "endTime": 12,
+          "duration": 1.7166666666666668
+        },
+        {
+          "cycle": 6,
+          "startFrame": 720,
+          "endFrame": 805,
+          "startTime": 12,
+          "endTime": 13.416666666666666,
+          "duration": 1.416666666666666
+        },
+        {
+          "cycle": 7,
+          "startFrame": 805,
+          "endFrame": 910,
+          "startTime": 13.416666666666666,
+          "endTime": 15.166666666666666,
+          "duration": 1.75
+        },
+        {
+          "cycle": 8,
+          "startFrame": 910,
+          "endFrame": 1002,
+          "startTime": 15.166666666666666,
+          "endTime": 16.7,
+          "duration": 1.5333333333333332
+        },
+        {
+          "cycle": 9,
+          "startFrame": 1002,
+          "endFrame": 1094,
+          "startTime": 16.7,
+          "endTime": 18.233333333333334,
+          "duration": 1.533333333333335
+        },
+        {
+          "cycle": 10,
+          "startFrame": 1094,
+          "endFrame": 1184,
+          "startTime": 18.233333333333334,
+          "endTime": 19.733333333333334,
+          "duration": 1.5
+        },
+        {
+          "cycle": 11,
+          "startFrame": 1184,
+          "endFrame": 1283,
+          "startTime": 19.733333333333334,
+          "endTime": 21.383333333333333,
+          "duration": 1.6499999999999986
+        },
+        {
+          "cycle": 12,
+          "startFrame": 1283,
+          "endFrame": 1385,
+          "startTime": 21.383333333333333,
+          "endTime": 23.083333333333332,
+          "duration": 1.6999999999999993
+        },
+        {
+          "cycle": 13,
+          "startFrame": 1385,
+          "endFrame": 1480,
+          "startTime": 23.083333333333332,
+          "endTime": 24.666666666666668,
+          "duration": 1.5833333333333357
+        },
+        {
+          "cycle": 14,
+          "startFrame": 1480,
+          "endFrame": 1573,
+          "startTime": 24.666666666666668,
+          "endTime": 26.216666666666665,
+          "duration": 1.5499999999999972
+        },
+        {
+          "cycle": 15,
+          "startFrame": 1573,
+          "endFrame": 1664,
+          "startTime": 26.216666666666665,
+          "endTime": 27.733333333333334,
+          "duration": 1.5166666666666693
+        },
+        {
+          "cycle": 16,
+          "startFrame": 1664,
+          "endFrame": 1741,
+          "startTime": 27.733333333333334,
+          "endTime": 29.016666666666666,
+          "duration": 1.2833333333333314
+        },
+        {
+          "cycle": 17,
+          "startFrame": 1741,
+          "endFrame": 1827,
+          "startTime": 29.016666666666666,
+          "endTime": 30.45,
+          "duration": 1.4333333333333336
+        },
+        {
+          "cycle": 18,
+          "startFrame": 1827,
+          "endFrame": 1917,
+          "startTime": 30.45,
+          "endTime": 31.95,
+          "duration": 1.5
+        },
+        {
+          "cycle": 19,
+          "startFrame": 1917,
+          "endFrame": 1997,
+          "startTime": 31.95,
+          "endTime": 33.28333333333333,
+          "duration": 1.3333333333333321
+        },
+        {
+          "cycle": 20,
+          "startFrame": 1997,
+          "endFrame": 2091,
+          "startTime": 33.28333333333333,
+          "endTime": 34.85,
+          "duration": 1.56666666666667
+        },
+        {
+          "cycle": 21,
+          "startFrame": 2091,
+          "endFrame": 2179,
+          "startTime": 34.85,
+          "endTime": 36.31666666666666,
+          "duration": 1.4666666666666615
+        },
+        {
+          "cycle": 22,
+          "startFrame": 2179,
+          "endFrame": 2270,
+          "startTime": 36.31666666666666,
+          "endTime": 37.833333333333336,
+          "duration": 1.5166666666666728
+        },
+        {
+          "cycle": 23,
+          "startFrame": 2270,
+          "endFrame": 2355,
+          "startTime": 37.833333333333336,
+          "endTime": 39.25,
+          "duration": 1.4166666666666643
+        },
+        {
+          "cycle": 24,
+          "startFrame": 2355,
+          "endFrame": 2451,
+          "startTime": 39.25,
+          "endTime": 40.85,
+          "duration": 1.6000000000000014
+        },
+        {
+          "cycle": 25,
+          "startFrame": 2451,
+          "endFrame": 2531,
+          "startTime": 40.85,
+          "endTime": 42.18333333333333,
+          "duration": 1.3333333333333286
+        },
+        {
+          "cycle": 26,
+          "startFrame": 2531,
+          "endFrame": 2618,
+          "startTime": 42.18333333333333,
+          "endTime": 43.63333333333333,
+          "duration": 1.4500000000000028
+        },
+        {
+          "cycle": 27,
+          "startFrame": 2618,
+          "endFrame": 2703,
+          "startTime": 43.63333333333333,
+          "endTime": 45.05,
+          "duration": 1.4166666666666643
+        },
+        {
+          "cycle": 28,
+          "startFrame": 2703,
+          "endFrame": 2792,
+          "startTime": 45.05,
+          "endTime": 46.53333333333333,
+          "duration": 1.4833333333333343
+        },
+        {
+          "cycle": 29,
+          "startFrame": 2792,
+          "endFrame": 2894,
+          "startTime": 46.53333333333333,
+          "endTime": 48.233333333333334,
+          "duration": 1.7000000000000028
+        },
+        {
+          "cycle": 30,
+          "startFrame": 2894,
+          "endFrame": 2983,
+          "startTime": 48.233333333333334,
+          "endTime": 49.71666666666667,
+          "duration": 1.4833333333333343
+        },
+        {
+          "cycle": 31,
+          "startFrame": 2983,
+          "endFrame": 3067,
+          "startTime": 49.71666666666667,
+          "endTime": 51.11666666666667,
+          "duration": 1.3999999999999986
+        },
+        {
+          "cycle": 32,
+          "startFrame": 3067,
+          "endFrame": 3156,
+          "startTime": 51.11666666666667,
+          "endTime": 52.6,
+          "duration": 1.4833333333333343
+        },
+        {
+          "cycle": 33,
+          "startFrame": 3156,
+          "endFrame": 3244,
+          "startTime": 52.6,
+          "endTime": 54.06666666666666,
+          "duration": 1.4666666666666615
+        },
+        {
+          "cycle": 34,
+          "startFrame": 3244,
+          "endFrame": 3322,
+          "startTime": 54.06666666666666,
+          "endTime": 55.36666666666667,
+          "duration": 1.3000000000000043
+        },
+        {
+          "cycle": 35,
+          "startFrame": 3322,
+          "endFrame": 3404,
+          "startTime": 55.36666666666667,
+          "endTime": 56.733333333333334,
+          "duration": 1.3666666666666671
+        },
+        {
+          "cycle": 36,
+          "startFrame": 3404,
+          "endFrame": 3482,
+          "startTime": 56.733333333333334,
+          "endTime": 58.03333333333333,
+          "duration": 1.2999999999999972
+        },
+        {
+          "cycle": 37,
+          "startFrame": 3482,
+          "endFrame": 3556,
+          "startTime": 58.03333333333333,
+          "endTime": 59.266666666666666,
+          "duration": 1.2333333333333343
+        },
+        {
+          "cycle": 38,
+          "startFrame": 3556,
+          "endFrame": 3629,
+          "startTime": 59.266666666666666,
+          "endTime": 60.483333333333334,
+          "duration": 1.2166666666666686
+        },
+        {
+          "cycle": 39,
+          "startFrame": 3629,
+          "endFrame": 3716,
+          "startTime": 60.483333333333334,
+          "endTime": 61.93333333333333,
+          "duration": 1.4499999999999957
+        }
+      ]
+    },
+    {
+      "id": "willow-pull",
+      "sourceName": "倒拔杨柳",
+      "name": "Willow Pull",
+      "video": "daobayangliu720p_runway.mp4",
+      "motion": "Encircling finger motion with a compact upward pulling cadence",
+      "signature": "Encircling pull + rapid lift cadence",
+      "videoSrc": "assets/willow-pull/daobayangliu720p_runway.mp4",
+      "trajectoryImage": "assets/willow-pull/trajectory.png",
+      "cycleOverlayImage": "assets/willow-pull/cycle_overlay.png",
+      "repetitionImage": "assets/willow-pull/repetition_boundaries.png",
+      "motionSeriesSrc": "assets/willow-pull/motion_series.json",
+      "stats": {
+        "fps": 60,
+        "frames": 3797,
+        "width": 1920,
+        "height": 1080,
+        "cycleCount": 73,
+        "avgCycleDuration": 0.81,
+        "periodSec": 0.9,
+        "coverage": {
+          "left": 1,
+          "right": 1
+        }
+      },
+      "candidateSeeds": [
+        {
+          "cycle": 0,
+          "startFrame": 201,
+          "endFrame": 232,
+          "startTime": 3.35,
+          "endTime": 3.8666666666666667,
+          "duration": 0.5166666666666666,
+          "span": 31,
+          "score": 0.88
+        },
+        {
+          "cycle": 1,
+          "startFrame": 232,
+          "endFrame": 269,
+          "startTime": 3.8666666666666667,
+          "endTime": 4.483333333333333,
+          "duration": 0.6166666666666667,
+          "span": 37,
+          "score": 0.91
+        },
+        {
+          "cycle": 2,
+          "startFrame": 269,
+          "endFrame": 306,
+          "startTime": 4.483333333333333,
+          "endTime": 5.1,
+          "duration": 0.6166666666666663,
+          "span": 37,
+          "score": 0.91
+        },
+        {
+          "cycle": 3,
+          "startFrame": 306,
+          "endFrame": 343,
+          "startTime": 5.1,
+          "endTime": 5.716666666666667,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.91
+        },
+        {
+          "cycle": 4,
+          "startFrame": 343,
+          "endFrame": 374,
+          "startTime": 5.716666666666667,
+          "endTime": 6.233333333333333,
+          "duration": 0.5166666666666666,
+          "span": 31,
+          "score": 0.88
+        },
+        {
+          "cycle": 5,
+          "startFrame": 374,
+          "endFrame": 414,
+          "startTime": 6.233333333333333,
+          "endTime": 6.8999999999999995,
+          "duration": 0.6666666666666661,
+          "span": 40,
+          "score": 0.92
+        },
+        {
+          "cycle": 6,
+          "startFrame": 414,
+          "endFrame": 449,
+          "startTime": 6.8999999999999995,
+          "endTime": 7.483333333333333,
+          "duration": 0.5833333333333339,
+          "span": 35,
+          "score": 0.9
+        },
+        {
+          "cycle": 7,
+          "startFrame": 449,
+          "endFrame": 482,
+          "startTime": 7.483333333333333,
+          "endTime": 8.033333333333333,
+          "duration": 0.5499999999999998,
+          "span": 33,
+          "score": 0.89
+        },
+        {
+          "cycle": 8,
+          "startFrame": 482,
+          "endFrame": 514,
+          "startTime": 8.033333333333333,
+          "endTime": 8.566666666666666,
+          "duration": 0.5333333333333332,
+          "span": 32,
+          "score": 0.88
+        },
+        {
+          "cycle": 9,
+          "startFrame": 514,
+          "endFrame": 574,
+          "startTime": 8.566666666666666,
+          "endTime": 9.566666666666666,
+          "duration": 1,
+          "span": 60,
+          "score": 0.91
+        },
+        {
+          "cycle": 10,
+          "startFrame": 574,
+          "endFrame": 609,
+          "startTime": 9.566666666666666,
+          "endTime": 10.15,
+          "duration": 0.5833333333333339,
+          "span": 35,
+          "score": 0.9
+        },
+        {
+          "cycle": 11,
+          "startFrame": 609,
+          "endFrame": 643,
+          "startTime": 10.15,
+          "endTime": 10.716666666666667,
+          "duration": 0.5666666666666664,
+          "span": 34,
+          "score": 0.89
+        },
+        {
+          "cycle": 12,
+          "startFrame": 643,
+          "endFrame": 678,
+          "startTime": 10.716666666666667,
+          "endTime": 11.3,
+          "duration": 0.5833333333333339,
+          "span": 35,
+          "score": 0.9
+        },
+        {
+          "cycle": 13,
+          "startFrame": 678,
+          "endFrame": 713,
+          "startTime": 11.3,
+          "endTime": 11.883333333333333,
+          "duration": 0.5833333333333321,
+          "span": 35,
+          "score": 0.9
+        },
+        {
+          "cycle": 14,
+          "startFrame": 713,
+          "endFrame": 743,
+          "startTime": 11.883333333333333,
+          "endTime": 12.383333333333333,
+          "duration": 0.5,
+          "span": 30,
+          "score": 0.87
+        },
+        {
+          "cycle": 15,
+          "startFrame": 743,
+          "endFrame": 776,
+          "startTime": 12.383333333333333,
+          "endTime": 12.933333333333334,
+          "duration": 0.5500000000000007,
+          "span": 33,
+          "score": 0.89
+        },
+        {
+          "cycle": 16,
+          "startFrame": 776,
+          "endFrame": 809,
+          "startTime": 12.933333333333334,
+          "endTime": 13.483333333333333,
+          "duration": 0.5499999999999989,
+          "span": 33,
+          "score": 0.89
+        },
+        {
+          "cycle": 17,
+          "startFrame": 809,
+          "endFrame": 840,
+          "startTime": 13.483333333333333,
+          "endTime": 14,
+          "duration": 0.5166666666666675,
+          "span": 31,
+          "score": 0.88
+        },
+        {
+          "cycle": 18,
+          "startFrame": 840,
+          "endFrame": 871,
+          "startTime": 14,
+          "endTime": 14.516666666666666,
+          "duration": 0.5166666666666657,
+          "span": 31,
+          "score": 0.88
+        },
+        {
+          "cycle": 19,
+          "startFrame": 871,
+          "endFrame": 902,
+          "startTime": 14.516666666666666,
+          "endTime": 15.033333333333333,
+          "duration": 0.5166666666666675,
+          "span": 31,
+          "score": 0.88
+        },
+        {
+          "cycle": 20,
+          "startFrame": 902,
+          "endFrame": 932,
+          "startTime": 15.033333333333333,
+          "endTime": 15.533333333333333,
+          "duration": 0.5,
+          "span": 30,
+          "score": 0.87
+        },
+        {
+          "cycle": 21,
+          "startFrame": 932,
+          "endFrame": 965,
+          "startTime": 15.533333333333333,
+          "endTime": 16.083333333333332,
+          "duration": 0.5499999999999989,
+          "span": 33,
+          "score": 0.89
+        },
+        {
+          "cycle": 22,
+          "startFrame": 965,
+          "endFrame": 999,
+          "startTime": 16.083333333333332,
+          "endTime": 16.65,
+          "duration": 0.5666666666666664,
+          "span": 34,
+          "score": 0.89
+        },
+        {
+          "cycle": 23,
+          "startFrame": 999,
+          "endFrame": 1029,
+          "startTime": 16.65,
+          "endTime": 17.15,
+          "duration": 0.5,
+          "span": 30,
+          "score": 0.87
+        },
+        {
+          "cycle": 24,
+          "startFrame": 1029,
+          "endFrame": 1062,
+          "startTime": 17.15,
+          "endTime": 17.7,
+          "duration": 0.5500000000000007,
+          "span": 33,
+          "score": 0.89
+        },
+        {
+          "cycle": 25,
+          "startFrame": 1062,
+          "endFrame": 1095,
+          "startTime": 17.7,
+          "endTime": 18.25,
+          "duration": 0.5500000000000007,
+          "span": 33,
+          "score": 0.89
+        },
+        {
+          "cycle": 26,
+          "startFrame": 1095,
+          "endFrame": 1126,
+          "startTime": 18.25,
+          "endTime": 18.766666666666666,
+          "duration": 0.5166666666666657,
+          "span": 31,
+          "score": 0.88
+        },
+        {
+          "cycle": 27,
+          "startFrame": 1126,
+          "endFrame": 1156,
+          "startTime": 18.766666666666666,
+          "endTime": 19.266666666666666,
+          "duration": 0.5,
+          "span": 30,
+          "score": 0.87
+        },
+        {
+          "cycle": 28,
+          "startFrame": 1156,
+          "endFrame": 1214,
+          "startTime": 19.266666666666666,
+          "endTime": 20.233333333333334,
+          "duration": 0.9666666666666686,
+          "span": 58,
+          "score": 0.92
+        },
+        {
+          "cycle": 29,
+          "startFrame": 1214,
+          "endFrame": 1244,
+          "startTime": 20.233333333333334,
+          "endTime": 20.733333333333334,
+          "duration": 0.5,
+          "span": 30,
+          "score": 0.87
+        },
+        {
+          "cycle": 30,
+          "startFrame": 1244,
+          "endFrame": 1304,
+          "startTime": 20.733333333333334,
+          "endTime": 21.733333333333334,
+          "duration": 1,
+          "span": 60,
+          "score": 0.91
+        },
+        {
+          "cycle": 31,
+          "startFrame": 1304,
+          "endFrame": 1388,
+          "startTime": 21.733333333333334,
+          "endTime": 23.133333333333333,
+          "duration": 1.3999999999999986,
+          "span": 84,
+          "score": 0.79
+        },
+        {
+          "cycle": 32,
+          "startFrame": 1388,
+          "endFrame": 1444,
+          "startTime": 23.133333333333333,
+          "endTime": 24.066666666666666,
+          "duration": 0.9333333333333336,
+          "span": 56,
+          "score": 0.93
+        },
+        {
+          "cycle": 33,
+          "startFrame": 1444,
+          "endFrame": 1473,
+          "startTime": 24.066666666666666,
+          "endTime": 24.55,
+          "duration": 0.4833333333333343,
+          "span": 29,
+          "score": 0.87
+        },
+        {
+          "cycle": 34,
+          "startFrame": 1473,
+          "endFrame": 1502,
+          "startTime": 24.55,
+          "endTime": 25.03333333333333,
+          "duration": 0.48333333333333073,
+          "span": 29,
+          "score": 0.87
+        },
+        {
+          "cycle": 35,
+          "startFrame": 1502,
+          "endFrame": 1589,
+          "startTime": 25.03333333333333,
+          "endTime": 26.483333333333334,
+          "duration": 1.4500000000000028,
+          "span": 87,
+          "score": 0.78
+        },
+        {
+          "cycle": 36,
+          "startFrame": 1589,
+          "endFrame": 1643,
+          "startTime": 26.483333333333334,
+          "endTime": 27.383333333333333,
+          "duration": 0.8999999999999986,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 37,
+          "startFrame": 1643,
+          "endFrame": 1695,
+          "startTime": 27.383333333333333,
+          "endTime": 28.25,
+          "duration": 0.8666666666666671,
+          "span": 52,
+          "score": 0.95
+        },
+        {
+          "cycle": 38,
+          "startFrame": 1695,
+          "endFrame": 1747,
+          "startTime": 28.25,
+          "endTime": 29.116666666666667,
+          "duration": 0.8666666666666671,
+          "span": 52,
+          "score": 0.95
+        },
+        {
+          "cycle": 39,
+          "startFrame": 1747,
+          "endFrame": 1776,
+          "startTime": 29.116666666666667,
+          "endTime": 29.599999999999998,
+          "duration": 0.48333333333333073,
+          "span": 29,
+          "score": 0.87
+        },
+        {
+          "cycle": 40,
+          "startFrame": 1776,
+          "endFrame": 1830,
+          "startTime": 29.599999999999998,
+          "endTime": 30.5,
+          "duration": 0.9000000000000021,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 41,
+          "startFrame": 1830,
+          "endFrame": 1912,
+          "startTime": 30.5,
+          "endTime": 31.866666666666667,
+          "duration": 1.3666666666666671,
+          "span": 82,
+          "score": 0.8
+        },
+        {
+          "cycle": 42,
+          "startFrame": 1912,
+          "endFrame": 1962,
+          "startTime": 31.866666666666667,
+          "endTime": 32.7,
+          "duration": 0.8333333333333357,
+          "span": 50,
+          "score": 0.96
+        },
+        {
+          "cycle": 43,
+          "startFrame": 1962,
+          "endFrame": 2017,
+          "startTime": 32.7,
+          "endTime": 33.61666666666667,
+          "duration": 0.9166666666666643,
+          "span": 55,
+          "score": 0.93
+        },
+        {
+          "cycle": 44,
+          "startFrame": 2017,
+          "endFrame": 2073,
+          "startTime": 33.61666666666667,
+          "endTime": 34.55,
+          "duration": 0.93333333333333,
+          "span": 56,
+          "score": 0.93
+        },
+        {
+          "cycle": 45,
+          "startFrame": 2073,
+          "endFrame": 2126,
+          "startTime": 34.55,
+          "endTime": 35.43333333333333,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.94
+        },
+        {
+          "cycle": 46,
+          "startFrame": 2126,
+          "endFrame": 2180,
+          "startTime": 35.43333333333333,
+          "endTime": 36.333333333333336,
+          "duration": 0.9000000000000057,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 47,
+          "startFrame": 2180,
+          "endFrame": 2231,
+          "startTime": 36.333333333333336,
+          "endTime": 37.18333333333333,
+          "duration": 0.8499999999999943,
+          "span": 51,
+          "score": 0.95
+        },
+        {
+          "cycle": 48,
+          "startFrame": 2231,
+          "endFrame": 2286,
+          "startTime": 37.18333333333333,
+          "endTime": 38.1,
+          "duration": 0.9166666666666714,
+          "span": 55,
+          "score": 0.93
+        },
+        {
+          "cycle": 49,
+          "startFrame": 2286,
+          "endFrame": 2367,
+          "startTime": 38.1,
+          "endTime": 39.45,
+          "duration": 1.3500000000000014,
+          "span": 81,
+          "score": 0.81
+        },
+        {
+          "cycle": 50,
+          "startFrame": 2367,
+          "endFrame": 2420,
+          "startTime": 39.45,
+          "endTime": 40.333333333333336,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.94
+        },
+        {
+          "cycle": 51,
+          "startFrame": 2420,
+          "endFrame": 2473,
+          "startTime": 40.333333333333336,
+          "endTime": 41.21666666666667,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.94
+        },
+        {
+          "cycle": 52,
+          "startFrame": 2473,
+          "endFrame": 2525,
+          "startTime": 41.21666666666667,
+          "endTime": 42.083333333333336,
+          "duration": 0.8666666666666671,
+          "span": 52,
+          "score": 0.95
+        },
+        {
+          "cycle": 53,
+          "startFrame": 2525,
+          "endFrame": 2579,
+          "startTime": 42.083333333333336,
+          "endTime": 42.983333333333334,
+          "duration": 0.8999999999999986,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 54,
+          "startFrame": 2579,
+          "endFrame": 2657,
+          "startTime": 42.983333333333334,
+          "endTime": 44.28333333333333,
+          "duration": 1.2999999999999972,
+          "span": 78,
+          "score": 0.82
+        },
+        {
+          "cycle": 55,
+          "startFrame": 2657,
+          "endFrame": 2714,
+          "startTime": 44.28333333333333,
+          "endTime": 45.233333333333334,
+          "duration": 0.9500000000000028,
+          "span": 57,
+          "score": 0.92
+        },
+        {
+          "cycle": 56,
+          "startFrame": 2714,
+          "endFrame": 2794,
+          "startTime": 45.233333333333334,
+          "endTime": 46.56666666666666,
+          "duration": 1.3333333333333286,
+          "span": 80,
+          "score": 0.81
+        },
+        {
+          "cycle": 57,
+          "startFrame": 2794,
+          "endFrame": 2846,
+          "startTime": 46.56666666666666,
+          "endTime": 47.43333333333333,
+          "duration": 0.8666666666666671,
+          "span": 52,
+          "score": 0.95
+        },
+        {
+          "cycle": 58,
+          "startFrame": 2846,
+          "endFrame": 2900,
+          "startTime": 47.43333333333333,
+          "endTime": 48.333333333333336,
+          "duration": 0.9000000000000057,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 59,
+          "startFrame": 2900,
+          "endFrame": 2953,
+          "startTime": 48.333333333333336,
+          "endTime": 49.21666666666667,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.94
+        },
+        {
+          "cycle": 60,
+          "startFrame": 2953,
+          "endFrame": 3028,
+          "startTime": 49.21666666666667,
+          "endTime": 50.46666666666667,
+          "duration": 1.25,
+          "span": 75,
+          "score": 0.83
+        },
+        {
+          "cycle": 61,
+          "startFrame": 3028,
+          "endFrame": 3081,
+          "startTime": 50.46666666666667,
+          "endTime": 51.35,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.94
+        },
+        {
+          "cycle": 62,
+          "startFrame": 3081,
+          "endFrame": 3160,
+          "startTime": 51.35,
+          "endTime": 52.666666666666664,
+          "duration": 1.3166666666666629,
+          "span": 79,
+          "score": 0.82
+        },
+        {
+          "cycle": 63,
+          "startFrame": 3160,
+          "endFrame": 3234,
+          "startTime": 52.666666666666664,
+          "endTime": 53.9,
+          "duration": 1.2333333333333343,
+          "span": 74,
+          "score": 0.84
+        },
+        {
+          "cycle": 64,
+          "startFrame": 3234,
+          "endFrame": 3288,
+          "startTime": 53.9,
+          "endTime": 54.8,
+          "duration": 0.8999999999999986,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 65,
+          "startFrame": 3288,
+          "endFrame": 3363,
+          "startTime": 54.8,
+          "endTime": 56.05,
+          "duration": 1.25,
+          "span": 75,
+          "score": 0.83
+        },
+        {
+          "cycle": 66,
+          "startFrame": 3363,
+          "endFrame": 3413,
+          "startTime": 56.05,
+          "endTime": 56.88333333333333,
+          "duration": 0.8333333333333357,
+          "span": 50,
+          "score": 0.96
+        },
+        {
+          "cycle": 67,
+          "startFrame": 3413,
+          "endFrame": 3464,
+          "startTime": 56.88333333333333,
+          "endTime": 57.733333333333334,
+          "duration": 0.8500000000000014,
+          "span": 51,
+          "score": 0.95
+        },
+        {
+          "cycle": 68,
+          "startFrame": 3464,
+          "endFrame": 3536,
+          "startTime": 57.733333333333334,
+          "endTime": 58.93333333333333,
+          "duration": 1.1999999999999957,
+          "span": 72,
+          "score": 0.85
+        },
+        {
+          "cycle": 69,
+          "startFrame": 3536,
+          "endFrame": 3608,
+          "startTime": 58.93333333333333,
+          "endTime": 60.13333333333333,
+          "duration": 1.2000000000000028,
+          "span": 72,
+          "score": 0.85
+        },
+        {
+          "cycle": 70,
+          "startFrame": 3608,
+          "endFrame": 3657,
+          "startTime": 60.13333333333333,
+          "endTime": 60.949999999999996,
+          "duration": 0.8166666666666629,
+          "span": 49,
+          "score": 0.96
+        },
+        {
+          "cycle": 71,
+          "startFrame": 3657,
+          "endFrame": 3707,
+          "startTime": 60.949999999999996,
+          "endTime": 61.78333333333333,
+          "duration": 0.8333333333333357,
+          "span": 50,
+          "score": 0.96
+        },
+        {
+          "cycle": 72,
+          "startFrame": 3707,
+          "endFrame": 3749,
+          "startTime": 61.78333333333333,
+          "endTime": 62.483333333333334,
+          "duration": 0.7000000000000028,
+          "span": 42,
+          "score": 0.93
+        }
+      ],
+      "seeds": [
+        {
+          "cycle": 42,
+          "startFrame": 1912,
+          "endFrame": 1962,
+          "startTime": 31.866666666666667,
+          "endTime": 32.7,
+          "duration": 0.8333333333333357,
+          "span": 50,
+          "score": 0.96
+        },
+        {
+          "cycle": 66,
+          "startFrame": 3363,
+          "endFrame": 3413,
+          "startTime": 56.05,
+          "endTime": 56.88333333333333,
+          "duration": 0.8333333333333357,
+          "span": 50,
+          "score": 0.96
+        },
+        {
+          "cycle": 70,
+          "startFrame": 3608,
+          "endFrame": 3657,
+          "startTime": 60.13333333333333,
+          "endTime": 60.949999999999996,
+          "duration": 0.8166666666666629,
+          "span": 49,
+          "score": 0.96
+        }
+      ],
+      "intervals": [
+        {
+          "cycle": 0,
+          "startFrame": 201,
+          "endFrame": 232,
+          "startTime": 3.35,
+          "endTime": 3.8666666666666667,
+          "duration": 0.5166666666666666
+        },
+        {
+          "cycle": 1,
+          "startFrame": 232,
+          "endFrame": 269,
+          "startTime": 3.8666666666666667,
+          "endTime": 4.483333333333333,
+          "duration": 0.6166666666666667
+        },
+        {
+          "cycle": 2,
+          "startFrame": 269,
+          "endFrame": 306,
+          "startTime": 4.483333333333333,
+          "endTime": 5.1,
+          "duration": 0.6166666666666663
+        },
+        {
+          "cycle": 3,
+          "startFrame": 306,
+          "endFrame": 343,
+          "startTime": 5.1,
+          "endTime": 5.716666666666667,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 4,
+          "startFrame": 343,
+          "endFrame": 374,
+          "startTime": 5.716666666666667,
+          "endTime": 6.233333333333333,
+          "duration": 0.5166666666666666
+        },
+        {
+          "cycle": 5,
+          "startFrame": 374,
+          "endFrame": 414,
+          "startTime": 6.233333333333333,
+          "endTime": 6.8999999999999995,
+          "duration": 0.6666666666666661
+        },
+        {
+          "cycle": 6,
+          "startFrame": 414,
+          "endFrame": 449,
+          "startTime": 6.8999999999999995,
+          "endTime": 7.483333333333333,
+          "duration": 0.5833333333333339
+        },
+        {
+          "cycle": 7,
+          "startFrame": 449,
+          "endFrame": 482,
+          "startTime": 7.483333333333333,
+          "endTime": 8.033333333333333,
+          "duration": 0.5499999999999998
+        },
+        {
+          "cycle": 8,
+          "startFrame": 482,
+          "endFrame": 514,
+          "startTime": 8.033333333333333,
+          "endTime": 8.566666666666666,
+          "duration": 0.5333333333333332
+        },
+        {
+          "cycle": 9,
+          "startFrame": 514,
+          "endFrame": 574,
+          "startTime": 8.566666666666666,
+          "endTime": 9.566666666666666,
+          "duration": 1
+        },
+        {
+          "cycle": 10,
+          "startFrame": 574,
+          "endFrame": 609,
+          "startTime": 9.566666666666666,
+          "endTime": 10.15,
+          "duration": 0.5833333333333339
+        },
+        {
+          "cycle": 11,
+          "startFrame": 609,
+          "endFrame": 643,
+          "startTime": 10.15,
+          "endTime": 10.716666666666667,
+          "duration": 0.5666666666666664
+        },
+        {
+          "cycle": 12,
+          "startFrame": 643,
+          "endFrame": 678,
+          "startTime": 10.716666666666667,
+          "endTime": 11.3,
+          "duration": 0.5833333333333339
+        },
+        {
+          "cycle": 13,
+          "startFrame": 678,
+          "endFrame": 713,
+          "startTime": 11.3,
+          "endTime": 11.883333333333333,
+          "duration": 0.5833333333333321
+        },
+        {
+          "cycle": 14,
+          "startFrame": 713,
+          "endFrame": 743,
+          "startTime": 11.883333333333333,
+          "endTime": 12.383333333333333,
+          "duration": 0.5
+        },
+        {
+          "cycle": 15,
+          "startFrame": 743,
+          "endFrame": 776,
+          "startTime": 12.383333333333333,
+          "endTime": 12.933333333333334,
+          "duration": 0.5500000000000007
+        },
+        {
+          "cycle": 16,
+          "startFrame": 776,
+          "endFrame": 809,
+          "startTime": 12.933333333333334,
+          "endTime": 13.483333333333333,
+          "duration": 0.5499999999999989
+        },
+        {
+          "cycle": 17,
+          "startFrame": 809,
+          "endFrame": 840,
+          "startTime": 13.483333333333333,
+          "endTime": 14,
+          "duration": 0.5166666666666675
+        },
+        {
+          "cycle": 18,
+          "startFrame": 840,
+          "endFrame": 871,
+          "startTime": 14,
+          "endTime": 14.516666666666666,
+          "duration": 0.5166666666666657
+        },
+        {
+          "cycle": 19,
+          "startFrame": 871,
+          "endFrame": 902,
+          "startTime": 14.516666666666666,
+          "endTime": 15.033333333333333,
+          "duration": 0.5166666666666675
+        },
+        {
+          "cycle": 20,
+          "startFrame": 902,
+          "endFrame": 932,
+          "startTime": 15.033333333333333,
+          "endTime": 15.533333333333333,
+          "duration": 0.5
+        },
+        {
+          "cycle": 21,
+          "startFrame": 932,
+          "endFrame": 965,
+          "startTime": 15.533333333333333,
+          "endTime": 16.083333333333332,
+          "duration": 0.5499999999999989
+        },
+        {
+          "cycle": 22,
+          "startFrame": 965,
+          "endFrame": 999,
+          "startTime": 16.083333333333332,
+          "endTime": 16.65,
+          "duration": 0.5666666666666664
+        },
+        {
+          "cycle": 23,
+          "startFrame": 999,
+          "endFrame": 1029,
+          "startTime": 16.65,
+          "endTime": 17.15,
+          "duration": 0.5
+        },
+        {
+          "cycle": 24,
+          "startFrame": 1029,
+          "endFrame": 1062,
+          "startTime": 17.15,
+          "endTime": 17.7,
+          "duration": 0.5500000000000007
+        },
+        {
+          "cycle": 25,
+          "startFrame": 1062,
+          "endFrame": 1095,
+          "startTime": 17.7,
+          "endTime": 18.25,
+          "duration": 0.5500000000000007
+        },
+        {
+          "cycle": 26,
+          "startFrame": 1095,
+          "endFrame": 1126,
+          "startTime": 18.25,
+          "endTime": 18.766666666666666,
+          "duration": 0.5166666666666657
+        },
+        {
+          "cycle": 27,
+          "startFrame": 1126,
+          "endFrame": 1156,
+          "startTime": 18.766666666666666,
+          "endTime": 19.266666666666666,
+          "duration": 0.5
+        },
+        {
+          "cycle": 28,
+          "startFrame": 1156,
+          "endFrame": 1214,
+          "startTime": 19.266666666666666,
+          "endTime": 20.233333333333334,
+          "duration": 0.9666666666666686
+        },
+        {
+          "cycle": 29,
+          "startFrame": 1214,
+          "endFrame": 1244,
+          "startTime": 20.233333333333334,
+          "endTime": 20.733333333333334,
+          "duration": 0.5
+        },
+        {
+          "cycle": 30,
+          "startFrame": 1244,
+          "endFrame": 1304,
+          "startTime": 20.733333333333334,
+          "endTime": 21.733333333333334,
+          "duration": 1
+        },
+        {
+          "cycle": 31,
+          "startFrame": 1304,
+          "endFrame": 1388,
+          "startTime": 21.733333333333334,
+          "endTime": 23.133333333333333,
+          "duration": 1.3999999999999986
+        },
+        {
+          "cycle": 32,
+          "startFrame": 1388,
+          "endFrame": 1444,
+          "startTime": 23.133333333333333,
+          "endTime": 24.066666666666666,
+          "duration": 0.9333333333333336
+        },
+        {
+          "cycle": 33,
+          "startFrame": 1444,
+          "endFrame": 1473,
+          "startTime": 24.066666666666666,
+          "endTime": 24.55,
+          "duration": 0.4833333333333343
+        },
+        {
+          "cycle": 34,
+          "startFrame": 1473,
+          "endFrame": 1502,
+          "startTime": 24.55,
+          "endTime": 25.03333333333333,
+          "duration": 0.48333333333333073
+        },
+        {
+          "cycle": 35,
+          "startFrame": 1502,
+          "endFrame": 1589,
+          "startTime": 25.03333333333333,
+          "endTime": 26.483333333333334,
+          "duration": 1.4500000000000028
+        },
+        {
+          "cycle": 36,
+          "startFrame": 1589,
+          "endFrame": 1643,
+          "startTime": 26.483333333333334,
+          "endTime": 27.383333333333333,
+          "duration": 0.8999999999999986
+        },
+        {
+          "cycle": 37,
+          "startFrame": 1643,
+          "endFrame": 1695,
+          "startTime": 27.383333333333333,
+          "endTime": 28.25,
+          "duration": 0.8666666666666671
+        },
+        {
+          "cycle": 38,
+          "startFrame": 1695,
+          "endFrame": 1747,
+          "startTime": 28.25,
+          "endTime": 29.116666666666667,
+          "duration": 0.8666666666666671
+        },
+        {
+          "cycle": 39,
+          "startFrame": 1747,
+          "endFrame": 1776,
+          "startTime": 29.116666666666667,
+          "endTime": 29.599999999999998,
+          "duration": 0.48333333333333073
+        },
+        {
+          "cycle": 40,
+          "startFrame": 1776,
+          "endFrame": 1830,
+          "startTime": 29.599999999999998,
+          "endTime": 30.5,
+          "duration": 0.9000000000000021
+        },
+        {
+          "cycle": 41,
+          "startFrame": 1830,
+          "endFrame": 1912,
+          "startTime": 30.5,
+          "endTime": 31.866666666666667,
+          "duration": 1.3666666666666671
+        },
+        {
+          "cycle": 42,
+          "startFrame": 1912,
+          "endFrame": 1962,
+          "startTime": 31.866666666666667,
+          "endTime": 32.7,
+          "duration": 0.8333333333333357
+        },
+        {
+          "cycle": 43,
+          "startFrame": 1962,
+          "endFrame": 2017,
+          "startTime": 32.7,
+          "endTime": 33.61666666666667,
+          "duration": 0.9166666666666643
+        },
+        {
+          "cycle": 44,
+          "startFrame": 2017,
+          "endFrame": 2073,
+          "startTime": 33.61666666666667,
+          "endTime": 34.55,
+          "duration": 0.93333333333333
+        },
+        {
+          "cycle": 45,
+          "startFrame": 2073,
+          "endFrame": 2126,
+          "startTime": 34.55,
+          "endTime": 35.43333333333333,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 46,
+          "startFrame": 2126,
+          "endFrame": 2180,
+          "startTime": 35.43333333333333,
+          "endTime": 36.333333333333336,
+          "duration": 0.9000000000000057
+        },
+        {
+          "cycle": 47,
+          "startFrame": 2180,
+          "endFrame": 2231,
+          "startTime": 36.333333333333336,
+          "endTime": 37.18333333333333,
+          "duration": 0.8499999999999943
+        },
+        {
+          "cycle": 48,
+          "startFrame": 2231,
+          "endFrame": 2286,
+          "startTime": 37.18333333333333,
+          "endTime": 38.1,
+          "duration": 0.9166666666666714
+        },
+        {
+          "cycle": 49,
+          "startFrame": 2286,
+          "endFrame": 2367,
+          "startTime": 38.1,
+          "endTime": 39.45,
+          "duration": 1.3500000000000014
+        },
+        {
+          "cycle": 50,
+          "startFrame": 2367,
+          "endFrame": 2420,
+          "startTime": 39.45,
+          "endTime": 40.333333333333336,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 51,
+          "startFrame": 2420,
+          "endFrame": 2473,
+          "startTime": 40.333333333333336,
+          "endTime": 41.21666666666667,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 52,
+          "startFrame": 2473,
+          "endFrame": 2525,
+          "startTime": 41.21666666666667,
+          "endTime": 42.083333333333336,
+          "duration": 0.8666666666666671
+        },
+        {
+          "cycle": 53,
+          "startFrame": 2525,
+          "endFrame": 2579,
+          "startTime": 42.083333333333336,
+          "endTime": 42.983333333333334,
+          "duration": 0.8999999999999986
+        },
+        {
+          "cycle": 54,
+          "startFrame": 2579,
+          "endFrame": 2657,
+          "startTime": 42.983333333333334,
+          "endTime": 44.28333333333333,
+          "duration": 1.2999999999999972
+        },
+        {
+          "cycle": 55,
+          "startFrame": 2657,
+          "endFrame": 2714,
+          "startTime": 44.28333333333333,
+          "endTime": 45.233333333333334,
+          "duration": 0.9500000000000028
+        },
+        {
+          "cycle": 56,
+          "startFrame": 2714,
+          "endFrame": 2794,
+          "startTime": 45.233333333333334,
+          "endTime": 46.56666666666666,
+          "duration": 1.3333333333333286
+        },
+        {
+          "cycle": 57,
+          "startFrame": 2794,
+          "endFrame": 2846,
+          "startTime": 46.56666666666666,
+          "endTime": 47.43333333333333,
+          "duration": 0.8666666666666671
+        },
+        {
+          "cycle": 58,
+          "startFrame": 2846,
+          "endFrame": 2900,
+          "startTime": 47.43333333333333,
+          "endTime": 48.333333333333336,
+          "duration": 0.9000000000000057
+        },
+        {
+          "cycle": 59,
+          "startFrame": 2900,
+          "endFrame": 2953,
+          "startTime": 48.333333333333336,
+          "endTime": 49.21666666666667,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 60,
+          "startFrame": 2953,
+          "endFrame": 3028,
+          "startTime": 49.21666666666667,
+          "endTime": 50.46666666666667,
+          "duration": 1.25
+        },
+        {
+          "cycle": 61,
+          "startFrame": 3028,
+          "endFrame": 3081,
+          "startTime": 50.46666666666667,
+          "endTime": 51.35,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 62,
+          "startFrame": 3081,
+          "endFrame": 3160,
+          "startTime": 51.35,
+          "endTime": 52.666666666666664,
+          "duration": 1.3166666666666629
+        },
+        {
+          "cycle": 63,
+          "startFrame": 3160,
+          "endFrame": 3234,
+          "startTime": 52.666666666666664,
+          "endTime": 53.9,
+          "duration": 1.2333333333333343
+        },
+        {
+          "cycle": 64,
+          "startFrame": 3234,
+          "endFrame": 3288,
+          "startTime": 53.9,
+          "endTime": 54.8,
+          "duration": 0.8999999999999986
+        },
+        {
+          "cycle": 65,
+          "startFrame": 3288,
+          "endFrame": 3363,
+          "startTime": 54.8,
+          "endTime": 56.05,
+          "duration": 1.25
+        },
+        {
+          "cycle": 66,
+          "startFrame": 3363,
+          "endFrame": 3413,
+          "startTime": 56.05,
+          "endTime": 56.88333333333333,
+          "duration": 0.8333333333333357
+        },
+        {
+          "cycle": 67,
+          "startFrame": 3413,
+          "endFrame": 3464,
+          "startTime": 56.88333333333333,
+          "endTime": 57.733333333333334,
+          "duration": 0.8500000000000014
+        },
+        {
+          "cycle": 68,
+          "startFrame": 3464,
+          "endFrame": 3536,
+          "startTime": 57.733333333333334,
+          "endTime": 58.93333333333333,
+          "duration": 1.1999999999999957
+        },
+        {
+          "cycle": 69,
+          "startFrame": 3536,
+          "endFrame": 3608,
+          "startTime": 58.93333333333333,
+          "endTime": 60.13333333333333,
+          "duration": 1.2000000000000028
+        },
+        {
+          "cycle": 70,
+          "startFrame": 3608,
+          "endFrame": 3657,
+          "startTime": 60.13333333333333,
+          "endTime": 60.949999999999996,
+          "duration": 0.8166666666666629
+        },
+        {
+          "cycle": 71,
+          "startFrame": 3657,
+          "endFrame": 3707,
+          "startTime": 60.949999999999996,
+          "endTime": 61.78333333333333,
+          "duration": 0.8333333333333357
+        },
+        {
+          "cycle": 72,
+          "startFrame": 3707,
+          "endFrame": 3749,
+          "startTime": 61.78333333333333,
+          "endTime": 62.483333333333334,
+          "duration": 0.7000000000000028
+        }
+      ]
+    },
+    {
+      "id": "cat-paw",
+      "sourceName": "猫爪",
+      "name": "Cat Paw",
+      "video": "maozhua720p_runway.mp4",
+      "motion": "Alternating two-hand presses with a tightening rhythm",
+      "signature": "Alternating peaks + vertical rebound",
+      "videoSrc": "assets/cat-paw/maozhua720p_runway.mp4",
+      "trajectoryImage": "assets/cat-paw/trajectory.png",
+      "cycleOverlayImage": "assets/cat-paw/cycle_overlay.png",
+      "repetitionImage": "assets/cat-paw/repetition_boundaries.png",
+      "motionSeriesSrc": "assets/cat-paw/motion_series.json",
+      "stats": {
+        "fps": 60,
+        "frames": 3536,
+        "width": 1920,
+        "height": 1080,
+        "cycleCount": 10,
+        "avgCycleDuration": 5.24,
+        "periodSec": 5.83,
+        "coverage": {
+          "left": 1,
+          "right": 1
+        }
+      },
+      "candidateSeeds": [
+        {
+          "cycle": 0,
+          "startFrame": 171,
+          "endFrame": 460,
+          "startTime": 2.85,
+          "endTime": 7.666666666666667,
+          "duration": 4.816666666666666,
+          "span": 289,
+          "score": 0.96
+        },
+        {
+          "cycle": 1,
+          "startFrame": 460,
+          "endFrame": 878,
+          "startTime": 7.666666666666667,
+          "endTime": 14.633333333333333,
+          "duration": 6.966666666666666,
+          "span": 418,
+          "score": 0.91
+        },
+        {
+          "cycle": 2,
+          "startFrame": 878,
+          "endFrame": 1226,
+          "startTime": 14.633333333333333,
+          "endTime": 20.433333333333334,
+          "duration": 5.800000000000001,
+          "span": 348,
+          "score": 0.96
+        },
+        {
+          "cycle": 3,
+          "startFrame": 1226,
+          "endFrame": 1635,
+          "startTime": 20.433333333333334,
+          "endTime": 27.25,
+          "duration": 6.816666666666666,
+          "span": 409,
+          "score": 0.92
+        },
+        {
+          "cycle": 4,
+          "startFrame": 1635,
+          "endFrame": 1980,
+          "startTime": 27.25,
+          "endTime": 33,
+          "duration": 5.75,
+          "span": 345,
+          "score": 0.96
+        },
+        {
+          "cycle": 5,
+          "startFrame": 1980,
+          "endFrame": 2318,
+          "startTime": 33,
+          "endTime": 38.63333333333333,
+          "duration": 5.633333333333333,
+          "span": 338,
+          "score": 0.96
+        },
+        {
+          "cycle": 6,
+          "startFrame": 2318,
+          "endFrame": 2623,
+          "startTime": 38.63333333333333,
+          "endTime": 43.71666666666667,
+          "duration": 5.083333333333336,
+          "span": 305,
+          "score": 0.97
+        },
+        {
+          "cycle": 7,
+          "startFrame": 2623,
+          "endFrame": 2868,
+          "startTime": 43.71666666666667,
+          "endTime": 47.8,
+          "duration": 4.083333333333329,
+          "span": 245,
+          "score": 0.92
+        },
+        {
+          "cycle": 8,
+          "startFrame": 2868,
+          "endFrame": 3102,
+          "startTime": 47.8,
+          "endTime": 51.699999999999996,
+          "duration": 3.8999999999999986,
+          "span": 234,
+          "score": 0.91
+        },
+        {
+          "cycle": 9,
+          "startFrame": 3102,
+          "endFrame": 3318,
+          "startTime": 51.699999999999996,
+          "endTime": 55.3,
+          "duration": 3.6000000000000014,
+          "span": 216,
+          "score": 0.9
+        }
+      ],
+      "seeds": [
+        {
+          "cycle": 0,
+          "startFrame": 171,
+          "endFrame": 460,
+          "startTime": 2.85,
+          "endTime": 7.666666666666667,
+          "duration": 4.816666666666666,
+          "span": 289,
+          "score": 0.96
+        },
+        {
+          "cycle": 2,
+          "startFrame": 878,
+          "endFrame": 1226,
+          "startTime": 14.633333333333333,
+          "endTime": 20.433333333333334,
+          "duration": 5.800000000000001,
+          "span": 348,
+          "score": 0.96
+        },
+        {
+          "cycle": 6,
+          "startFrame": 2318,
+          "endFrame": 2623,
+          "startTime": 38.63333333333333,
+          "endTime": 43.71666666666667,
+          "duration": 5.083333333333336,
+          "span": 305,
+          "score": 0.97
+        }
+      ],
+      "intervals": [
+        {
+          "cycle": 0,
+          "startFrame": 171,
+          "endFrame": 460,
+          "startTime": 2.85,
+          "endTime": 7.666666666666667,
+          "duration": 4.816666666666666
+        },
+        {
+          "cycle": 1,
+          "startFrame": 460,
+          "endFrame": 878,
+          "startTime": 7.666666666666667,
+          "endTime": 14.633333333333333,
+          "duration": 6.966666666666666
+        },
+        {
+          "cycle": 2,
+          "startFrame": 878,
+          "endFrame": 1226,
+          "startTime": 14.633333333333333,
+          "endTime": 20.433333333333334,
+          "duration": 5.800000000000001
+        },
+        {
+          "cycle": 3,
+          "startFrame": 1226,
+          "endFrame": 1635,
+          "startTime": 20.433333333333334,
+          "endTime": 27.25,
+          "duration": 6.816666666666666
+        },
+        {
+          "cycle": 4,
+          "startFrame": 1635,
+          "endFrame": 1980,
+          "startTime": 27.25,
+          "endTime": 33,
+          "duration": 5.75
+        },
+        {
+          "cycle": 5,
+          "startFrame": 1980,
+          "endFrame": 2318,
+          "startTime": 33,
+          "endTime": 38.63333333333333,
+          "duration": 5.633333333333333
+        },
+        {
+          "cycle": 6,
+          "startFrame": 2318,
+          "endFrame": 2623,
+          "startTime": 38.63333333333333,
+          "endTime": 43.71666666666667,
+          "duration": 5.083333333333336
+        },
+        {
+          "cycle": 7,
+          "startFrame": 2623,
+          "endFrame": 2868,
+          "startTime": 43.71666666666667,
+          "endTime": 47.8,
+          "duration": 4.083333333333329
+        },
+        {
+          "cycle": 8,
+          "startFrame": 2868,
+          "endFrame": 3102,
+          "startTime": 47.8,
+          "endTime": 51.699999999999996,
+          "duration": 3.8999999999999986
+        },
+        {
+          "cycle": 9,
+          "startFrame": 3102,
+          "endFrame": 3318,
+          "startTime": 51.699999999999996,
+          "endTime": 55.3,
+          "duration": 3.6000000000000014
+        }
+      ]
+    },
+    {
+      "id": "prayer",
+      "sourceName": "祈祷",
+      "name": "Prayer Press",
+      "video": "qidao720p_runway.mp4",
+      "motion": "Synchronized palm-press motion with a stable center line",
+      "signature": "Synchronized closure + center stability",
+      "videoSrc": "assets/prayer/qidao720p_runway.mp4",
+      "trajectoryImage": "assets/prayer/trajectory.png",
+      "cycleOverlayImage": "assets/prayer/cycle_overlay.png",
+      "repetitionImage": "assets/prayer/repetition_boundaries.png",
+      "motionSeriesSrc": "assets/prayer/motion_series.json",
+      "stats": {
+        "fps": 60,
+        "frames": 3754,
+        "width": 1920,
+        "height": 1080,
+        "cycleCount": 61,
+        "avgCycleDuration": 1.01,
+        "periodSec": 0.98,
+        "coverage": {
+          "left": 1,
+          "right": 1
+        }
+      },
+      "candidateSeeds": [
+        {
+          "cycle": 0,
+          "startFrame": 38,
+          "endFrame": 153,
+          "startTime": 0.6333333333333333,
+          "endTime": 2.55,
+          "duration": 1.9166666666666665,
+          "span": 115,
+          "score": 0.75
+        },
+        {
+          "cycle": 1,
+          "startFrame": 153,
+          "endFrame": 189,
+          "startTime": 2.55,
+          "endTime": 3.15,
+          "duration": 0.6000000000000001,
+          "span": 36,
+          "score": 0.86
+        },
+        {
+          "cycle": 2,
+          "startFrame": 189,
+          "endFrame": 223,
+          "startTime": 3.15,
+          "endTime": 3.716666666666667,
+          "duration": 0.5666666666666669,
+          "span": 34,
+          "score": 0.86
+        },
+        {
+          "cycle": 3,
+          "startFrame": 223,
+          "endFrame": 316,
+          "startTime": 3.716666666666667,
+          "endTime": 5.266666666666667,
+          "duration": 1.5499999999999998,
+          "span": 93,
+          "score": 0.84
+        },
+        {
+          "cycle": 4,
+          "startFrame": 316,
+          "endFrame": 377,
+          "startTime": 5.266666666666667,
+          "endTime": 6.283333333333333,
+          "duration": 1.0166666666666666,
+          "span": 61,
+          "score": 0.96
+        },
+        {
+          "cycle": 5,
+          "startFrame": 377,
+          "endFrame": 410,
+          "startTime": 6.283333333333333,
+          "endTime": 6.833333333333333,
+          "duration": 0.5499999999999998,
+          "span": 33,
+          "score": 0.85
+        },
+        {
+          "cycle": 6,
+          "startFrame": 410,
+          "endFrame": 469,
+          "startTime": 6.833333333333333,
+          "endTime": 7.816666666666666,
+          "duration": 0.9833333333333334,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 7,
+          "startFrame": 469,
+          "endFrame": 555,
+          "startTime": 7.816666666666666,
+          "endTime": 9.25,
+          "duration": 1.4333333333333336,
+          "span": 86,
+          "score": 0.87
+        },
+        {
+          "cycle": 8,
+          "startFrame": 555,
+          "endFrame": 640,
+          "startTime": 9.25,
+          "endTime": 10.666666666666666,
+          "duration": 1.416666666666666,
+          "span": 85,
+          "score": 0.87
+        },
+        {
+          "cycle": 9,
+          "startFrame": 640,
+          "endFrame": 691,
+          "startTime": 10.666666666666666,
+          "endTime": 11.516666666666666,
+          "duration": 0.8499999999999996,
+          "span": 51,
+          "score": 0.92
+        },
+        {
+          "cycle": 10,
+          "startFrame": 691,
+          "endFrame": 767,
+          "startTime": 11.516666666666666,
+          "endTime": 12.783333333333333,
+          "duration": 1.2666666666666675,
+          "span": 76,
+          "score": 0.9
+        },
+        {
+          "cycle": 11,
+          "startFrame": 767,
+          "endFrame": 844,
+          "startTime": 12.783333333333333,
+          "endTime": 14.066666666666666,
+          "duration": 1.2833333333333332,
+          "span": 77,
+          "score": 0.9
+        },
+        {
+          "cycle": 12,
+          "startFrame": 844,
+          "endFrame": 898,
+          "startTime": 14.066666666666666,
+          "endTime": 14.966666666666667,
+          "duration": 0.9000000000000004,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 13,
+          "startFrame": 898,
+          "endFrame": 932,
+          "startTime": 14.966666666666667,
+          "endTime": 15.533333333333333,
+          "duration": 0.5666666666666664,
+          "span": 34,
+          "score": 0.86
+        },
+        {
+          "cycle": 14,
+          "startFrame": 932,
+          "endFrame": 968,
+          "startTime": 15.533333333333333,
+          "endTime": 16.133333333333333,
+          "duration": 0.5999999999999996,
+          "span": 36,
+          "score": 0.86
+        },
+        {
+          "cycle": 15,
+          "startFrame": 968,
+          "endFrame": 1029,
+          "startTime": 16.133333333333333,
+          "endTime": 17.15,
+          "duration": 1.0166666666666657,
+          "span": 61,
+          "score": 0.96
+        },
+        {
+          "cycle": 16,
+          "startFrame": 1029,
+          "endFrame": 1067,
+          "startTime": 17.15,
+          "endTime": 17.78333333333333,
+          "duration": 0.6333333333333329,
+          "span": 38,
+          "score": 0.87
+        },
+        {
+          "cycle": 17,
+          "startFrame": 1067,
+          "endFrame": 1100,
+          "startTime": 17.78333333333333,
+          "endTime": 18.333333333333332,
+          "duration": 0.5500000000000007,
+          "span": 33,
+          "score": 0.85
+        },
+        {
+          "cycle": 18,
+          "startFrame": 1100,
+          "endFrame": 1163,
+          "startTime": 18.333333333333332,
+          "endTime": 19.383333333333333,
+          "duration": 1.0500000000000007,
+          "span": 63,
+          "score": 0.96
+        },
+        {
+          "cycle": 19,
+          "startFrame": 1163,
+          "endFrame": 1227,
+          "startTime": 19.383333333333333,
+          "endTime": 20.45,
+          "duration": 1.0666666666666664,
+          "span": 64,
+          "score": 0.95
+        },
+        {
+          "cycle": 20,
+          "startFrame": 1227,
+          "endFrame": 1317,
+          "startTime": 20.45,
+          "endTime": 21.95,
+          "duration": 1.5,
+          "span": 90,
+          "score": 0.85
+        },
+        {
+          "cycle": 21,
+          "startFrame": 1317,
+          "endFrame": 1376,
+          "startTime": 21.95,
+          "endTime": 22.933333333333334,
+          "duration": 0.9833333333333343,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 22,
+          "startFrame": 1376,
+          "endFrame": 1457,
+          "startTime": 22.933333333333334,
+          "endTime": 24.28333333333333,
+          "duration": 1.3499999999999979,
+          "span": 81,
+          "score": 0.89
+        },
+        {
+          "cycle": 23,
+          "startFrame": 1457,
+          "endFrame": 1542,
+          "startTime": 24.28333333333333,
+          "endTime": 25.7,
+          "duration": 1.4166666666666679,
+          "span": 85,
+          "score": 0.87
+        },
+        {
+          "cycle": 24,
+          "startFrame": 1542,
+          "endFrame": 1596,
+          "startTime": 25.7,
+          "endTime": 26.599999999999998,
+          "duration": 0.8999999999999986,
+          "span": 54,
+          "score": 0.94
+        },
+        {
+          "cycle": 25,
+          "startFrame": 1596,
+          "endFrame": 1649,
+          "startTime": 26.599999999999998,
+          "endTime": 27.483333333333334,
+          "duration": 0.8833333333333364,
+          "span": 53,
+          "score": 0.93
+        },
+        {
+          "cycle": 26,
+          "startFrame": 1649,
+          "endFrame": 1731,
+          "startTime": 27.483333333333334,
+          "endTime": 28.849999999999998,
+          "duration": 1.3666666666666636,
+          "span": 82,
+          "score": 0.88
+        },
+        {
+          "cycle": 27,
+          "startFrame": 1731,
+          "endFrame": 1786,
+          "startTime": 28.849999999999998,
+          "endTime": 29.766666666666666,
+          "duration": 0.9166666666666679,
+          "span": 55,
+          "score": 0.94
+        },
+        {
+          "cycle": 28,
+          "startFrame": 1786,
+          "endFrame": 1842,
+          "startTime": 29.766666666666666,
+          "endTime": 30.7,
+          "duration": 0.9333333333333336,
+          "span": 56,
+          "score": 0.94
+        },
+        {
+          "cycle": 29,
+          "startFrame": 1842,
+          "endFrame": 1920,
+          "startTime": 30.7,
+          "endTime": 32,
+          "duration": 1.3000000000000007,
+          "span": 78,
+          "score": 0.9
+        },
+        {
+          "cycle": 30,
+          "startFrame": 1920,
+          "endFrame": 1975,
+          "startTime": 32,
+          "endTime": 32.916666666666664,
+          "duration": 0.9166666666666643,
+          "span": 55,
+          "score": 0.94
+        },
+        {
+          "cycle": 31,
+          "startFrame": 1975,
+          "endFrame": 2034,
+          "startTime": 32.916666666666664,
+          "endTime": 33.9,
+          "duration": 0.9833333333333343,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 32,
+          "startFrame": 2034,
+          "endFrame": 2094,
+          "startTime": 33.9,
+          "endTime": 34.9,
+          "duration": 1,
+          "span": 60,
+          "score": 0.96
+        },
+        {
+          "cycle": 33,
+          "startFrame": 2094,
+          "endFrame": 2130,
+          "startTime": 34.9,
+          "endTime": 35.5,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.86
+        },
+        {
+          "cycle": 34,
+          "startFrame": 2130,
+          "endFrame": 2163,
+          "startTime": 35.5,
+          "endTime": 36.05,
+          "duration": 0.5499999999999972,
+          "span": 33,
+          "score": 0.85
+        },
+        {
+          "cycle": 35,
+          "startFrame": 2163,
+          "endFrame": 2252,
+          "startTime": 36.05,
+          "endTime": 37.53333333333333,
+          "duration": 1.4833333333333343,
+          "span": 89,
+          "score": 0.85
+        },
+        {
+          "cycle": 36,
+          "startFrame": 2252,
+          "endFrame": 2316,
+          "startTime": 37.53333333333333,
+          "endTime": 38.6,
+          "duration": 1.06666666666667,
+          "span": 64,
+          "score": 0.95
+        },
+        {
+          "cycle": 37,
+          "startFrame": 2316,
+          "endFrame": 2361,
+          "startTime": 38.6,
+          "endTime": 39.35,
+          "duration": 0.75,
+          "span": 45,
+          "score": 0.9
+        },
+        {
+          "cycle": 38,
+          "startFrame": 2361,
+          "endFrame": 2418,
+          "startTime": 39.35,
+          "endTime": 40.3,
+          "duration": 0.9499999999999957,
+          "span": 57,
+          "score": 0.95
+        },
+        {
+          "cycle": 39,
+          "startFrame": 2418,
+          "endFrame": 2452,
+          "startTime": 40.3,
+          "endTime": 40.86666666666667,
+          "duration": 0.56666666666667,
+          "span": 34,
+          "score": 0.86
+        },
+        {
+          "cycle": 40,
+          "startFrame": 2452,
+          "endFrame": 2484,
+          "startTime": 40.86666666666667,
+          "endTime": 41.4,
+          "duration": 0.5333333333333314,
+          "span": 32,
+          "score": 0.85
+        },
+        {
+          "cycle": 41,
+          "startFrame": 2484,
+          "endFrame": 2544,
+          "startTime": 41.4,
+          "endTime": 42.4,
+          "duration": 1,
+          "span": 60,
+          "score": 0.96
+        },
+        {
+          "cycle": 42,
+          "startFrame": 2544,
+          "endFrame": 2607,
+          "startTime": 42.4,
+          "endTime": 43.45,
+          "duration": 1.0500000000000043,
+          "span": 63,
+          "score": 0.96
+        },
+        {
+          "cycle": 43,
+          "startFrame": 2607,
+          "endFrame": 2694,
+          "startTime": 43.45,
+          "endTime": 44.9,
+          "duration": 1.4499999999999957,
+          "span": 87,
+          "score": 0.86
+        },
+        {
+          "cycle": 44,
+          "startFrame": 2694,
+          "endFrame": 2756,
+          "startTime": 44.9,
+          "endTime": 45.93333333333333,
+          "duration": 1.0333333333333314,
+          "span": 62,
+          "score": 0.96
+        },
+        {
+          "cycle": 45,
+          "startFrame": 2756,
+          "endFrame": 2815,
+          "startTime": 45.93333333333333,
+          "endTime": 46.916666666666664,
+          "duration": 0.9833333333333343,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 46,
+          "startFrame": 2815,
+          "endFrame": 2902,
+          "startTime": 46.916666666666664,
+          "endTime": 48.36666666666667,
+          "duration": 1.4500000000000028,
+          "span": 87,
+          "score": 0.86
+        },
+        {
+          "cycle": 47,
+          "startFrame": 2902,
+          "endFrame": 2961,
+          "startTime": 48.36666666666667,
+          "endTime": 49.35,
+          "duration": 0.9833333333333343,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 48,
+          "startFrame": 2961,
+          "endFrame": 3023,
+          "startTime": 49.35,
+          "endTime": 50.38333333333333,
+          "duration": 1.0333333333333314,
+          "span": 62,
+          "score": 0.96
+        },
+        {
+          "cycle": 49,
+          "startFrame": 3023,
+          "endFrame": 3082,
+          "startTime": 50.38333333333333,
+          "endTime": 51.36666666666667,
+          "duration": 0.9833333333333343,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 50,
+          "startFrame": 3082,
+          "endFrame": 3165,
+          "startTime": 51.36666666666667,
+          "endTime": 52.75,
+          "duration": 1.3833333333333329,
+          "span": 83,
+          "score": 0.88
+        },
+        {
+          "cycle": 51,
+          "startFrame": 3165,
+          "endFrame": 3213,
+          "startTime": 52.75,
+          "endTime": 53.55,
+          "duration": 0.7999999999999972,
+          "span": 48,
+          "score": 0.91
+        },
+        {
+          "cycle": 52,
+          "startFrame": 3213,
+          "endFrame": 3258,
+          "startTime": 53.55,
+          "endTime": 54.3,
+          "duration": 0.75,
+          "span": 45,
+          "score": 0.9
+        },
+        {
+          "cycle": 53,
+          "startFrame": 3258,
+          "endFrame": 3310,
+          "startTime": 54.3,
+          "endTime": 55.166666666666664,
+          "duration": 0.8666666666666671,
+          "span": 52,
+          "score": 0.93
+        },
+        {
+          "cycle": 54,
+          "startFrame": 3310,
+          "endFrame": 3356,
+          "startTime": 55.166666666666664,
+          "endTime": 55.93333333333333,
+          "duration": 0.7666666666666657,
+          "span": 46,
+          "score": 0.9
+        },
+        {
+          "cycle": 55,
+          "startFrame": 3356,
+          "endFrame": 3425,
+          "startTime": 55.93333333333333,
+          "endTime": 57.083333333333336,
+          "duration": 1.1500000000000057,
+          "span": 69,
+          "score": 0.93
+        },
+        {
+          "cycle": 56,
+          "startFrame": 3425,
+          "endFrame": 3481,
+          "startTime": 57.083333333333336,
+          "endTime": 58.016666666666666,
+          "duration": 0.93333333333333,
+          "span": 56,
+          "score": 0.94
+        },
+        {
+          "cycle": 57,
+          "startFrame": 3481,
+          "endFrame": 3542,
+          "startTime": 58.016666666666666,
+          "endTime": 59.03333333333333,
+          "duration": 1.0166666666666657,
+          "span": 61,
+          "score": 0.96
+        },
+        {
+          "cycle": 58,
+          "startFrame": 3542,
+          "endFrame": 3600,
+          "startTime": 59.03333333333333,
+          "endTime": 60,
+          "duration": 0.9666666666666686,
+          "span": 58,
+          "score": 0.95
+        },
+        {
+          "cycle": 59,
+          "startFrame": 3600,
+          "endFrame": 3687,
+          "startTime": 60,
+          "endTime": 61.449999999999996,
+          "duration": 1.4499999999999957,
+          "span": 87,
+          "score": 0.86
+        },
+        {
+          "cycle": 60,
+          "startFrame": 3687,
+          "endFrame": 3744,
+          "startTime": 61.449999999999996,
+          "endTime": 62.4,
+          "duration": 0.9500000000000028,
+          "span": 57,
+          "score": 0.95
+        }
+      ],
+      "seeds": [
+        {
+          "cycle": 4,
+          "startFrame": 316,
+          "endFrame": 377,
+          "startTime": 5.266666666666667,
+          "endTime": 6.283333333333333,
+          "duration": 1.0166666666666666,
+          "span": 61,
+          "score": 0.96
+        },
+        {
+          "cycle": 6,
+          "startFrame": 410,
+          "endFrame": 469,
+          "startTime": 6.833333333333333,
+          "endTime": 7.816666666666666,
+          "duration": 0.9833333333333334,
+          "span": 59,
+          "score": 0.96
+        },
+        {
+          "cycle": 15,
+          "startFrame": 968,
+          "endFrame": 1029,
+          "startTime": 16.133333333333333,
+          "endTime": 17.15,
+          "duration": 1.0166666666666657,
+          "span": 61,
+          "score": 0.96
+        }
+      ],
+      "intervals": [
+        {
+          "cycle": 0,
+          "startFrame": 38,
+          "endFrame": 153,
+          "startTime": 0.6333333333333333,
+          "endTime": 2.55,
+          "duration": 1.9166666666666665
+        },
+        {
+          "cycle": 1,
+          "startFrame": 153,
+          "endFrame": 189,
+          "startTime": 2.55,
+          "endTime": 3.15,
+          "duration": 0.6000000000000001
+        },
+        {
+          "cycle": 2,
+          "startFrame": 189,
+          "endFrame": 223,
+          "startTime": 3.15,
+          "endTime": 3.716666666666667,
+          "duration": 0.5666666666666669
+        },
+        {
+          "cycle": 3,
+          "startFrame": 223,
+          "endFrame": 316,
+          "startTime": 3.716666666666667,
+          "endTime": 5.266666666666667,
+          "duration": 1.5499999999999998
+        },
+        {
+          "cycle": 4,
+          "startFrame": 316,
+          "endFrame": 377,
+          "startTime": 5.266666666666667,
+          "endTime": 6.283333333333333,
+          "duration": 1.0166666666666666
+        },
+        {
+          "cycle": 5,
+          "startFrame": 377,
+          "endFrame": 410,
+          "startTime": 6.283333333333333,
+          "endTime": 6.833333333333333,
+          "duration": 0.5499999999999998
+        },
+        {
+          "cycle": 6,
+          "startFrame": 410,
+          "endFrame": 469,
+          "startTime": 6.833333333333333,
+          "endTime": 7.816666666666666,
+          "duration": 0.9833333333333334
+        },
+        {
+          "cycle": 7,
+          "startFrame": 469,
+          "endFrame": 555,
+          "startTime": 7.816666666666666,
+          "endTime": 9.25,
+          "duration": 1.4333333333333336
+        },
+        {
+          "cycle": 8,
+          "startFrame": 555,
+          "endFrame": 640,
+          "startTime": 9.25,
+          "endTime": 10.666666666666666,
+          "duration": 1.416666666666666
+        },
+        {
+          "cycle": 9,
+          "startFrame": 640,
+          "endFrame": 691,
+          "startTime": 10.666666666666666,
+          "endTime": 11.516666666666666,
+          "duration": 0.8499999999999996
+        },
+        {
+          "cycle": 10,
+          "startFrame": 691,
+          "endFrame": 767,
+          "startTime": 11.516666666666666,
+          "endTime": 12.783333333333333,
+          "duration": 1.2666666666666675
+        },
+        {
+          "cycle": 11,
+          "startFrame": 767,
+          "endFrame": 844,
+          "startTime": 12.783333333333333,
+          "endTime": 14.066666666666666,
+          "duration": 1.2833333333333332
+        },
+        {
+          "cycle": 12,
+          "startFrame": 844,
+          "endFrame": 898,
+          "startTime": 14.066666666666666,
+          "endTime": 14.966666666666667,
+          "duration": 0.9000000000000004
+        },
+        {
+          "cycle": 13,
+          "startFrame": 898,
+          "endFrame": 932,
+          "startTime": 14.966666666666667,
+          "endTime": 15.533333333333333,
+          "duration": 0.5666666666666664
+        },
+        {
+          "cycle": 14,
+          "startFrame": 932,
+          "endFrame": 968,
+          "startTime": 15.533333333333333,
+          "endTime": 16.133333333333333,
+          "duration": 0.5999999999999996
+        },
+        {
+          "cycle": 15,
+          "startFrame": 968,
+          "endFrame": 1029,
+          "startTime": 16.133333333333333,
+          "endTime": 17.15,
+          "duration": 1.0166666666666657
+        },
+        {
+          "cycle": 16,
+          "startFrame": 1029,
+          "endFrame": 1067,
+          "startTime": 17.15,
+          "endTime": 17.78333333333333,
+          "duration": 0.6333333333333329
+        },
+        {
+          "cycle": 17,
+          "startFrame": 1067,
+          "endFrame": 1100,
+          "startTime": 17.78333333333333,
+          "endTime": 18.333333333333332,
+          "duration": 0.5500000000000007
+        },
+        {
+          "cycle": 18,
+          "startFrame": 1100,
+          "endFrame": 1163,
+          "startTime": 18.333333333333332,
+          "endTime": 19.383333333333333,
+          "duration": 1.0500000000000007
+        },
+        {
+          "cycle": 19,
+          "startFrame": 1163,
+          "endFrame": 1227,
+          "startTime": 19.383333333333333,
+          "endTime": 20.45,
+          "duration": 1.0666666666666664
+        },
+        {
+          "cycle": 20,
+          "startFrame": 1227,
+          "endFrame": 1317,
+          "startTime": 20.45,
+          "endTime": 21.95,
+          "duration": 1.5
+        },
+        {
+          "cycle": 21,
+          "startFrame": 1317,
+          "endFrame": 1376,
+          "startTime": 21.95,
+          "endTime": 22.933333333333334,
+          "duration": 0.9833333333333343
+        },
+        {
+          "cycle": 22,
+          "startFrame": 1376,
+          "endFrame": 1457,
+          "startTime": 22.933333333333334,
+          "endTime": 24.28333333333333,
+          "duration": 1.3499999999999979
+        },
+        {
+          "cycle": 23,
+          "startFrame": 1457,
+          "endFrame": 1542,
+          "startTime": 24.28333333333333,
+          "endTime": 25.7,
+          "duration": 1.4166666666666679
+        },
+        {
+          "cycle": 24,
+          "startFrame": 1542,
+          "endFrame": 1596,
+          "startTime": 25.7,
+          "endTime": 26.599999999999998,
+          "duration": 0.8999999999999986
+        },
+        {
+          "cycle": 25,
+          "startFrame": 1596,
+          "endFrame": 1649,
+          "startTime": 26.599999999999998,
+          "endTime": 27.483333333333334,
+          "duration": 0.8833333333333364
+        },
+        {
+          "cycle": 26,
+          "startFrame": 1649,
+          "endFrame": 1731,
+          "startTime": 27.483333333333334,
+          "endTime": 28.849999999999998,
+          "duration": 1.3666666666666636
+        },
+        {
+          "cycle": 27,
+          "startFrame": 1731,
+          "endFrame": 1786,
+          "startTime": 28.849999999999998,
+          "endTime": 29.766666666666666,
+          "duration": 0.9166666666666679
+        },
+        {
+          "cycle": 28,
+          "startFrame": 1786,
+          "endFrame": 1842,
+          "startTime": 29.766666666666666,
+          "endTime": 30.7,
+          "duration": 0.9333333333333336
+        },
+        {
+          "cycle": 29,
+          "startFrame": 1842,
+          "endFrame": 1920,
+          "startTime": 30.7,
+          "endTime": 32,
+          "duration": 1.3000000000000007
+        },
+        {
+          "cycle": 30,
+          "startFrame": 1920,
+          "endFrame": 1975,
+          "startTime": 32,
+          "endTime": 32.916666666666664,
+          "duration": 0.9166666666666643
+        },
+        {
+          "cycle": 31,
+          "startFrame": 1975,
+          "endFrame": 2034,
+          "startTime": 32.916666666666664,
+          "endTime": 33.9,
+          "duration": 0.9833333333333343
+        },
+        {
+          "cycle": 32,
+          "startFrame": 2034,
+          "endFrame": 2094,
+          "startTime": 33.9,
+          "endTime": 34.9,
+          "duration": 1
+        },
+        {
+          "cycle": 33,
+          "startFrame": 2094,
+          "endFrame": 2130,
+          "startTime": 34.9,
+          "endTime": 35.5,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 34,
+          "startFrame": 2130,
+          "endFrame": 2163,
+          "startTime": 35.5,
+          "endTime": 36.05,
+          "duration": 0.5499999999999972
+        },
+        {
+          "cycle": 35,
+          "startFrame": 2163,
+          "endFrame": 2252,
+          "startTime": 36.05,
+          "endTime": 37.53333333333333,
+          "duration": 1.4833333333333343
+        },
+        {
+          "cycle": 36,
+          "startFrame": 2252,
+          "endFrame": 2316,
+          "startTime": 37.53333333333333,
+          "endTime": 38.6,
+          "duration": 1.06666666666667
+        },
+        {
+          "cycle": 37,
+          "startFrame": 2316,
+          "endFrame": 2361,
+          "startTime": 38.6,
+          "endTime": 39.35,
+          "duration": 0.75
+        },
+        {
+          "cycle": 38,
+          "startFrame": 2361,
+          "endFrame": 2418,
+          "startTime": 39.35,
+          "endTime": 40.3,
+          "duration": 0.9499999999999957
+        },
+        {
+          "cycle": 39,
+          "startFrame": 2418,
+          "endFrame": 2452,
+          "startTime": 40.3,
+          "endTime": 40.86666666666667,
+          "duration": 0.56666666666667
+        },
+        {
+          "cycle": 40,
+          "startFrame": 2452,
+          "endFrame": 2484,
+          "startTime": 40.86666666666667,
+          "endTime": 41.4,
+          "duration": 0.5333333333333314
+        },
+        {
+          "cycle": 41,
+          "startFrame": 2484,
+          "endFrame": 2544,
+          "startTime": 41.4,
+          "endTime": 42.4,
+          "duration": 1
+        },
+        {
+          "cycle": 42,
+          "startFrame": 2544,
+          "endFrame": 2607,
+          "startTime": 42.4,
+          "endTime": 43.45,
+          "duration": 1.0500000000000043
+        },
+        {
+          "cycle": 43,
+          "startFrame": 2607,
+          "endFrame": 2694,
+          "startTime": 43.45,
+          "endTime": 44.9,
+          "duration": 1.4499999999999957
+        },
+        {
+          "cycle": 44,
+          "startFrame": 2694,
+          "endFrame": 2756,
+          "startTime": 44.9,
+          "endTime": 45.93333333333333,
+          "duration": 1.0333333333333314
+        },
+        {
+          "cycle": 45,
+          "startFrame": 2756,
+          "endFrame": 2815,
+          "startTime": 45.93333333333333,
+          "endTime": 46.916666666666664,
+          "duration": 0.9833333333333343
+        },
+        {
+          "cycle": 46,
+          "startFrame": 2815,
+          "endFrame": 2902,
+          "startTime": 46.916666666666664,
+          "endTime": 48.36666666666667,
+          "duration": 1.4500000000000028
+        },
+        {
+          "cycle": 47,
+          "startFrame": 2902,
+          "endFrame": 2961,
+          "startTime": 48.36666666666667,
+          "endTime": 49.35,
+          "duration": 0.9833333333333343
+        },
+        {
+          "cycle": 48,
+          "startFrame": 2961,
+          "endFrame": 3023,
+          "startTime": 49.35,
+          "endTime": 50.38333333333333,
+          "duration": 1.0333333333333314
+        },
+        {
+          "cycle": 49,
+          "startFrame": 3023,
+          "endFrame": 3082,
+          "startTime": 50.38333333333333,
+          "endTime": 51.36666666666667,
+          "duration": 0.9833333333333343
+        },
+        {
+          "cycle": 50,
+          "startFrame": 3082,
+          "endFrame": 3165,
+          "startTime": 51.36666666666667,
+          "endTime": 52.75,
+          "duration": 1.3833333333333329
+        },
+        {
+          "cycle": 51,
+          "startFrame": 3165,
+          "endFrame": 3213,
+          "startTime": 52.75,
+          "endTime": 53.55,
+          "duration": 0.7999999999999972
+        },
+        {
+          "cycle": 52,
+          "startFrame": 3213,
+          "endFrame": 3258,
+          "startTime": 53.55,
+          "endTime": 54.3,
+          "duration": 0.75
+        },
+        {
+          "cycle": 53,
+          "startFrame": 3258,
+          "endFrame": 3310,
+          "startTime": 54.3,
+          "endTime": 55.166666666666664,
+          "duration": 0.8666666666666671
+        },
+        {
+          "cycle": 54,
+          "startFrame": 3310,
+          "endFrame": 3356,
+          "startTime": 55.166666666666664,
+          "endTime": 55.93333333333333,
+          "duration": 0.7666666666666657
+        },
+        {
+          "cycle": 55,
+          "startFrame": 3356,
+          "endFrame": 3425,
+          "startTime": 55.93333333333333,
+          "endTime": 57.083333333333336,
+          "duration": 1.1500000000000057
+        },
+        {
+          "cycle": 56,
+          "startFrame": 3425,
+          "endFrame": 3481,
+          "startTime": 57.083333333333336,
+          "endTime": 58.016666666666666,
+          "duration": 0.93333333333333
+        },
+        {
+          "cycle": 57,
+          "startFrame": 3481,
+          "endFrame": 3542,
+          "startTime": 58.016666666666666,
+          "endTime": 59.03333333333333,
+          "duration": 1.0166666666666657
+        },
+        {
+          "cycle": 58,
+          "startFrame": 3542,
+          "endFrame": 3600,
+          "startTime": 59.03333333333333,
+          "endTime": 60,
+          "duration": 0.9666666666666686
+        },
+        {
+          "cycle": 59,
+          "startFrame": 3600,
+          "endFrame": 3687,
+          "startTime": 60,
+          "endTime": 61.449999999999996,
+          "duration": 1.4499999999999957
+        },
+        {
+          "cycle": 60,
+          "startFrame": 3687,
+          "endFrame": 3744,
+          "startTime": 61.449999999999996,
+          "endTime": 62.4,
+          "duration": 0.9500000000000028
+        }
+      ]
+    },
+    {
+      "id": "drill-fire",
+      "sourceName": "钻木取火",
+      "name": "Fire Drill",
+      "video": "zuanmuquhuo720p_runway.mp4",
+      "motion": "Continuous rotating and driving motion across both hands",
+      "signature": "Rotational phase + high-frequency drive",
+      "videoSrc": "assets/drill-fire/zuanmuquhuo720p_runway.mp4",
+      "trajectoryImage": "assets/drill-fire/trajectory.png",
+      "cycleOverlayImage": "assets/drill-fire/cycle_overlay.png",
+      "repetitionImage": "assets/drill-fire/repetition_boundaries.png",
+      "motionSeriesSrc": "assets/drill-fire/motion_series.json",
+      "stats": {
+        "fps": 60,
+        "frames": 3597,
+        "width": 1920,
+        "height": 1080,
+        "cycleCount": 11,
+        "avgCycleDuration": 4.71,
+        "periodSec": 4.62,
+        "coverage": {
+          "left": 1,
+          "right": 1
+        }
+      },
+      "candidateSeeds": [
+        {
+          "cycle": 0,
+          "startFrame": 80,
+          "endFrame": 289,
+          "startTime": 1.3333333333333333,
+          "endTime": 4.816666666666666,
+          "duration": 3.4833333333333334,
+          "span": 209,
+          "score": 0.91
+        },
+        {
+          "cycle": 1,
+          "startFrame": 289,
+          "endFrame": 654,
+          "startTime": 4.816666666666666,
+          "endTime": 10.9,
+          "duration": 6.083333333333334,
+          "span": 365,
+          "score": 0.91
+        },
+        {
+          "cycle": 2,
+          "startFrame": 654,
+          "endFrame": 920,
+          "startTime": 10.9,
+          "endTime": 15.333333333333334,
+          "duration": 4.433333333333334,
+          "span": 266,
+          "score": 0.96
+        },
+        {
+          "cycle": 3,
+          "startFrame": 920,
+          "endFrame": 1227,
+          "startTime": 15.333333333333334,
+          "endTime": 20.45,
+          "duration": 5.116666666666665,
+          "span": 307,
+          "score": 0.96
+        },
+        {
+          "cycle": 4,
+          "startFrame": 1227,
+          "endFrame": 1527,
+          "startTime": 20.45,
+          "endTime": 25.45,
+          "duration": 5,
+          "span": 300,
+          "score": 0.97
+        },
+        {
+          "cycle": 5,
+          "startFrame": 1527,
+          "endFrame": 1907,
+          "startTime": 25.45,
+          "endTime": 31.78333333333333,
+          "duration": 6.333333333333332,
+          "span": 380,
+          "score": 0.9
+        },
+        {
+          "cycle": 6,
+          "startFrame": 1907,
+          "endFrame": 2192,
+          "startTime": 31.78333333333333,
+          "endTime": 36.53333333333333,
+          "duration": 4.75,
+          "span": 285,
+          "score": 0.98
+        },
+        {
+          "cycle": 7,
+          "startFrame": 2192,
+          "endFrame": 2453,
+          "startTime": 36.53333333333333,
+          "endTime": 40.88333333333333,
+          "duration": 4.350000000000001,
+          "span": 261,
+          "score": 0.96
+        },
+        {
+          "cycle": 8,
+          "startFrame": 2453,
+          "endFrame": 2707,
+          "startTime": 40.88333333333333,
+          "endTime": 45.11666666666667,
+          "duration": 4.233333333333334,
+          "span": 254,
+          "score": 0.95
+        },
+        {
+          "cycle": 9,
+          "startFrame": 2707,
+          "endFrame": 2952,
+          "startTime": 45.11666666666667,
+          "endTime": 49.2,
+          "duration": 4.083333333333336,
+          "span": 245,
+          "score": 0.94
+        },
+        {
+          "cycle": 10,
+          "startFrame": 2952,
+          "endFrame": 3188,
+          "startTime": 49.2,
+          "endTime": 53.13333333333333,
+          "duration": 3.93333333333333,
+          "span": 236,
+          "score": 0.94
+        }
+      ],
+      "seeds": [
+        {
+          "cycle": 2,
+          "startFrame": 654,
+          "endFrame": 920,
+          "startTime": 10.9,
+          "endTime": 15.333333333333334,
+          "duration": 4.433333333333334,
+          "span": 266,
+          "score": 0.96
+        },
+        {
+          "cycle": 4,
+          "startFrame": 1227,
+          "endFrame": 1527,
+          "startTime": 20.45,
+          "endTime": 25.45,
+          "duration": 5,
+          "span": 300,
+          "score": 0.97
+        },
+        {
+          "cycle": 6,
+          "startFrame": 1907,
+          "endFrame": 2192,
+          "startTime": 31.78333333333333,
+          "endTime": 36.53333333333333,
+          "duration": 4.75,
+          "span": 285,
+          "score": 0.98
+        }
+      ],
+      "intervals": [
+        {
+          "cycle": 0,
+          "startFrame": 80,
+          "endFrame": 289,
+          "startTime": 1.3333333333333333,
+          "endTime": 4.816666666666666,
+          "duration": 3.4833333333333334
+        },
+        {
+          "cycle": 1,
+          "startFrame": 289,
+          "endFrame": 654,
+          "startTime": 4.816666666666666,
+          "endTime": 10.9,
+          "duration": 6.083333333333334
+        },
+        {
+          "cycle": 2,
+          "startFrame": 654,
+          "endFrame": 920,
+          "startTime": 10.9,
+          "endTime": 15.333333333333334,
+          "duration": 4.433333333333334
+        },
+        {
+          "cycle": 3,
+          "startFrame": 920,
+          "endFrame": 1227,
+          "startTime": 15.333333333333334,
+          "endTime": 20.45,
+          "duration": 5.116666666666665
+        },
+        {
+          "cycle": 4,
+          "startFrame": 1227,
+          "endFrame": 1527,
+          "startTime": 20.45,
+          "endTime": 25.45,
+          "duration": 5
+        },
+        {
+          "cycle": 5,
+          "startFrame": 1527,
+          "endFrame": 1907,
+          "startTime": 25.45,
+          "endTime": 31.78333333333333,
+          "duration": 6.333333333333332
+        },
+        {
+          "cycle": 6,
+          "startFrame": 1907,
+          "endFrame": 2192,
+          "startTime": 31.78333333333333,
+          "endTime": 36.53333333333333,
+          "duration": 4.75
+        },
+        {
+          "cycle": 7,
+          "startFrame": 2192,
+          "endFrame": 2453,
+          "startTime": 36.53333333333333,
+          "endTime": 40.88333333333333,
+          "duration": 4.350000000000001
+        },
+        {
+          "cycle": 8,
+          "startFrame": 2453,
+          "endFrame": 2707,
+          "startTime": 40.88333333333333,
+          "endTime": 45.11666666666667,
+          "duration": 4.233333333333334
+        },
+        {
+          "cycle": 9,
+          "startFrame": 2707,
+          "endFrame": 2952,
+          "startTime": 45.11666666666667,
+          "endTime": 49.2,
+          "duration": 4.083333333333336
+        },
+        {
+          "cycle": 10,
+          "startFrame": 2952,
+          "endFrame": 3188,
+          "startTime": 49.2,
+          "endTime": 53.13333333333333,
+          "duration": 3.93333333333333
+        }
+      ]
+    },
+    {
+      "id": "pitch",
+      "sourceName": "投球",
+      "name": "Pitch Throw",
+      "video": "touqiu720p_runway.mp4",
+      "motion": "Arc-shaped acceleration with a clear release at the end",
+      "signature": "Arc loading + terminal release",
+      "videoSrc": "assets/pitch/touqiu720p_runway.mp4",
+      "trajectoryImage": "assets/pitch/trajectory.png",
+      "cycleOverlayImage": "assets/pitch/cycle_overlay.png",
+      "repetitionImage": "assets/pitch/repetition_boundaries.png",
+      "motionSeriesSrc": "assets/pitch/motion_series.json",
+      "stats": {
+        "fps": 60,
+        "frames": 3731,
+        "width": 1920,
+        "height": 1080,
+        "cycleCount": 90,
+        "avgCycleDuration": 0.67,
+        "periodSec": 0.6,
+        "coverage": {
+          "left": 1,
+          "right": 1
+        }
+      },
+      "candidateSeeds": [
+        {
+          "cycle": 0,
+          "startFrame": 116,
+          "endFrame": 173,
+          "startTime": 1.9333333333333333,
+          "endTime": 2.8833333333333333,
+          "duration": 0.95,
+          "span": 57,
+          "score": 0.86
+        },
+        {
+          "cycle": 1,
+          "startFrame": 173,
+          "endFrame": 220,
+          "startTime": 2.8833333333333333,
+          "endTime": 3.6666666666666665,
+          "duration": 0.7833333333333332,
+          "span": 47,
+          "score": 0.92
+        },
+        {
+          "cycle": 2,
+          "startFrame": 220,
+          "endFrame": 264,
+          "startTime": 3.6666666666666665,
+          "endTime": 4.4,
+          "duration": 0.7333333333333338,
+          "span": 44,
+          "score": 0.94
+        },
+        {
+          "cycle": 3,
+          "startFrame": 264,
+          "endFrame": 308,
+          "startTime": 4.4,
+          "endTime": 5.133333333333333,
+          "duration": 0.7333333333333325,
+          "span": 44,
+          "score": 0.94
+        },
+        {
+          "cycle": 4,
+          "startFrame": 308,
+          "endFrame": 352,
+          "startTime": 5.133333333333333,
+          "endTime": 5.866666666666666,
+          "duration": 0.7333333333333334,
+          "span": 44,
+          "score": 0.94
+        },
+        {
+          "cycle": 5,
+          "startFrame": 352,
+          "endFrame": 396,
+          "startTime": 5.866666666666666,
+          "endTime": 6.6,
+          "duration": 0.7333333333333334,
+          "span": 44,
+          "score": 0.94
+        },
+        {
+          "cycle": 6,
+          "startFrame": 396,
+          "endFrame": 460,
+          "startTime": 6.6,
+          "endTime": 7.666666666666667,
+          "duration": 1.0666666666666673,
+          "span": 64,
+          "score": 0.82
+        },
+        {
+          "cycle": 7,
+          "startFrame": 460,
+          "endFrame": 508,
+          "startTime": 7.666666666666667,
+          "endTime": 8.466666666666667,
+          "duration": 0.7999999999999998,
+          "span": 48,
+          "score": 0.91
+        },
+        {
+          "cycle": 8,
+          "startFrame": 508,
+          "endFrame": 554,
+          "startTime": 8.466666666666667,
+          "endTime": 9.233333333333333,
+          "duration": 0.7666666666666657,
+          "span": 46,
+          "score": 0.93
+        },
+        {
+          "cycle": 9,
+          "startFrame": 554,
+          "endFrame": 594,
+          "startTime": 9.233333333333333,
+          "endTime": 9.9,
+          "duration": 0.6666666666666679,
+          "span": 40,
+          "score": 0.96
+        },
+        {
+          "cycle": 10,
+          "startFrame": 594,
+          "endFrame": 635,
+          "startTime": 9.9,
+          "endTime": 10.583333333333334,
+          "duration": 0.6833333333333336,
+          "span": 41,
+          "score": 0.96
+        },
+        {
+          "cycle": 11,
+          "startFrame": 635,
+          "endFrame": 672,
+          "startTime": 10.583333333333334,
+          "endTime": 11.2,
+          "duration": 0.6166666666666654,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 12,
+          "startFrame": 672,
+          "endFrame": 716,
+          "startTime": 11.2,
+          "endTime": 11.933333333333334,
+          "duration": 0.7333333333333343,
+          "span": 44,
+          "score": 0.94
+        },
+        {
+          "cycle": 13,
+          "startFrame": 716,
+          "endFrame": 754,
+          "startTime": 11.933333333333334,
+          "endTime": 12.566666666666666,
+          "duration": 0.6333333333333329,
+          "span": 38,
+          "score": 0.95
+        },
+        {
+          "cycle": 14,
+          "startFrame": 754,
+          "endFrame": 793,
+          "startTime": 12.566666666666666,
+          "endTime": 13.216666666666667,
+          "duration": 0.6500000000000004,
+          "span": 39,
+          "score": 0.96
+        },
+        {
+          "cycle": 15,
+          "startFrame": 793,
+          "endFrame": 847,
+          "startTime": 13.216666666666667,
+          "endTime": 14.116666666666667,
+          "duration": 0.9000000000000004,
+          "span": 54,
+          "score": 0.88
+        },
+        {
+          "cycle": 16,
+          "startFrame": 847,
+          "endFrame": 921,
+          "startTime": 14.116666666666667,
+          "endTime": 15.35,
+          "duration": 1.2333333333333325,
+          "span": 74,
+          "score": 0.76
+        },
+        {
+          "cycle": 17,
+          "startFrame": 921,
+          "endFrame": 964,
+          "startTime": 15.35,
+          "endTime": 16.066666666666666,
+          "duration": 0.7166666666666668,
+          "span": 43,
+          "score": 0.94
+        },
+        {
+          "cycle": 18,
+          "startFrame": 964,
+          "endFrame": 999,
+          "startTime": 16.066666666666666,
+          "endTime": 16.65,
+          "duration": 0.5833333333333321,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 19,
+          "startFrame": 999,
+          "endFrame": 1035,
+          "startTime": 16.65,
+          "endTime": 17.25,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 20,
+          "startFrame": 1035,
+          "endFrame": 1077,
+          "startTime": 17.25,
+          "endTime": 17.95,
+          "duration": 0.6999999999999993,
+          "span": 42,
+          "score": 0.95
+        },
+        {
+          "cycle": 21,
+          "startFrame": 1077,
+          "endFrame": 1114,
+          "startTime": 17.95,
+          "endTime": 18.566666666666666,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 22,
+          "startFrame": 1114,
+          "endFrame": 1153,
+          "startTime": 18.566666666666666,
+          "endTime": 19.216666666666665,
+          "duration": 0.6499999999999986,
+          "span": 39,
+          "score": 0.96
+        },
+        {
+          "cycle": 23,
+          "startFrame": 1153,
+          "endFrame": 1189,
+          "startTime": 19.216666666666665,
+          "endTime": 19.816666666666666,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 24,
+          "startFrame": 1189,
+          "endFrame": 1227,
+          "startTime": 19.816666666666666,
+          "endTime": 20.45,
+          "duration": 0.6333333333333329,
+          "span": 38,
+          "score": 0.95
+        },
+        {
+          "cycle": 25,
+          "startFrame": 1227,
+          "endFrame": 1264,
+          "startTime": 20.45,
+          "endTime": 21.066666666666666,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 26,
+          "startFrame": 1264,
+          "endFrame": 1300,
+          "startTime": 21.066666666666666,
+          "endTime": 21.666666666666668,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 27,
+          "startFrame": 1300,
+          "endFrame": 1336,
+          "startTime": 21.666666666666668,
+          "endTime": 22.266666666666666,
+          "duration": 0.5999999999999979,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 28,
+          "startFrame": 1336,
+          "endFrame": 1373,
+          "startTime": 22.266666666666666,
+          "endTime": 22.883333333333333,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 29,
+          "startFrame": 1373,
+          "endFrame": 1414,
+          "startTime": 22.883333333333333,
+          "endTime": 23.566666666666666,
+          "duration": 0.6833333333333336,
+          "span": 41,
+          "score": 0.96
+        },
+        {
+          "cycle": 30,
+          "startFrame": 1414,
+          "endFrame": 1448,
+          "startTime": 23.566666666666666,
+          "endTime": 24.133333333333333,
+          "duration": 0.5666666666666664,
+          "span": 34,
+          "score": 0.93
+        },
+        {
+          "cycle": 31,
+          "startFrame": 1448,
+          "endFrame": 1484,
+          "startTime": 24.133333333333333,
+          "endTime": 24.733333333333334,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 32,
+          "startFrame": 1484,
+          "endFrame": 1569,
+          "startTime": 24.733333333333334,
+          "endTime": 26.15,
+          "duration": 1.4166666666666643,
+          "span": 85,
+          "score": 0.73
+        },
+        {
+          "cycle": 33,
+          "startFrame": 1569,
+          "endFrame": 1625,
+          "startTime": 26.15,
+          "endTime": 27.083333333333332,
+          "duration": 0.9333333333333336,
+          "span": 56,
+          "score": 0.87
+        },
+        {
+          "cycle": 34,
+          "startFrame": 1625,
+          "endFrame": 1661,
+          "startTime": 27.083333333333332,
+          "endTime": 27.683333333333334,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 35,
+          "startFrame": 1661,
+          "endFrame": 1697,
+          "startTime": 27.683333333333334,
+          "endTime": 28.28333333333333,
+          "duration": 0.5999999999999979,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 36,
+          "startFrame": 1697,
+          "endFrame": 1736,
+          "startTime": 28.28333333333333,
+          "endTime": 28.933333333333334,
+          "duration": 0.6500000000000021,
+          "span": 39,
+          "score": 0.96
+        },
+        {
+          "cycle": 37,
+          "startFrame": 1736,
+          "endFrame": 1769,
+          "startTime": 28.933333333333334,
+          "endTime": 29.483333333333334,
+          "duration": 0.5500000000000007,
+          "span": 33,
+          "score": 0.92
+        },
+        {
+          "cycle": 38,
+          "startFrame": 1769,
+          "endFrame": 1802,
+          "startTime": 29.483333333333334,
+          "endTime": 30.03333333333333,
+          "duration": 0.5499999999999972,
+          "span": 33,
+          "score": 0.92
+        },
+        {
+          "cycle": 39,
+          "startFrame": 1802,
+          "endFrame": 1834,
+          "startTime": 30.03333333333333,
+          "endTime": 30.566666666666666,
+          "duration": 0.533333333333335,
+          "span": 32,
+          "score": 0.91
+        },
+        {
+          "cycle": 40,
+          "startFrame": 1834,
+          "endFrame": 1877,
+          "startTime": 30.566666666666666,
+          "endTime": 31.28333333333333,
+          "duration": 0.716666666666665,
+          "span": 43,
+          "score": 0.94
+        },
+        {
+          "cycle": 41,
+          "startFrame": 1877,
+          "endFrame": 1913,
+          "startTime": 31.28333333333333,
+          "endTime": 31.883333333333333,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 42,
+          "startFrame": 1913,
+          "endFrame": 1956,
+          "startTime": 31.883333333333333,
+          "endTime": 32.6,
+          "duration": 0.7166666666666686,
+          "span": 43,
+          "score": 0.94
+        },
+        {
+          "cycle": 43,
+          "startFrame": 1956,
+          "endFrame": 1990,
+          "startTime": 32.6,
+          "endTime": 33.166666666666664,
+          "duration": 0.5666666666666629,
+          "span": 34,
+          "score": 0.93
+        },
+        {
+          "cycle": 44,
+          "startFrame": 1990,
+          "endFrame": 2029,
+          "startTime": 33.166666666666664,
+          "endTime": 33.81666666666666,
+          "duration": 0.6499999999999986,
+          "span": 39,
+          "score": 0.96
+        },
+        {
+          "cycle": 45,
+          "startFrame": 2029,
+          "endFrame": 2068,
+          "startTime": 33.81666666666666,
+          "endTime": 34.46666666666667,
+          "duration": 0.6500000000000057,
+          "span": 39,
+          "score": 0.96
+        },
+        {
+          "cycle": 46,
+          "startFrame": 2068,
+          "endFrame": 2105,
+          "startTime": 34.46666666666667,
+          "endTime": 35.083333333333336,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 47,
+          "startFrame": 2105,
+          "endFrame": 2141,
+          "startTime": 35.083333333333336,
+          "endTime": 35.68333333333333,
+          "duration": 0.5999999999999943,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 48,
+          "startFrame": 2141,
+          "endFrame": 2185,
+          "startTime": 35.68333333333333,
+          "endTime": 36.416666666666664,
+          "duration": 0.7333333333333343,
+          "span": 44,
+          "score": 0.94
+        },
+        {
+          "cycle": 49,
+          "startFrame": 2185,
+          "endFrame": 2214,
+          "startTime": 36.416666666666664,
+          "endTime": 36.9,
+          "duration": 0.4833333333333343,
+          "span": 29,
+          "score": 0.9
+        },
+        {
+          "cycle": 50,
+          "startFrame": 2214,
+          "endFrame": 2267,
+          "startTime": 36.9,
+          "endTime": 37.78333333333333,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.89
+        },
+        {
+          "cycle": 51,
+          "startFrame": 2267,
+          "endFrame": 2299,
+          "startTime": 37.78333333333333,
+          "endTime": 38.31666666666666,
+          "duration": 0.5333333333333314,
+          "span": 32,
+          "score": 0.91
+        },
+        {
+          "cycle": 52,
+          "startFrame": 2299,
+          "endFrame": 2335,
+          "startTime": 38.31666666666666,
+          "endTime": 38.916666666666664,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 53,
+          "startFrame": 2335,
+          "endFrame": 2368,
+          "startTime": 38.916666666666664,
+          "endTime": 39.46666666666667,
+          "duration": 0.5500000000000043,
+          "span": 33,
+          "score": 0.92
+        },
+        {
+          "cycle": 54,
+          "startFrame": 2368,
+          "endFrame": 2403,
+          "startTime": 39.46666666666667,
+          "endTime": 40.05,
+          "duration": 0.5833333333333286,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 55,
+          "startFrame": 2403,
+          "endFrame": 2492,
+          "startTime": 40.05,
+          "endTime": 41.53333333333333,
+          "duration": 1.4833333333333343,
+          "span": 89,
+          "score": 0.73
+        },
+        {
+          "cycle": 56,
+          "startFrame": 2492,
+          "endFrame": 2526,
+          "startTime": 41.53333333333333,
+          "endTime": 42.1,
+          "duration": 0.56666666666667,
+          "span": 34,
+          "score": 0.93
+        },
+        {
+          "cycle": 57,
+          "startFrame": 2526,
+          "endFrame": 2558,
+          "startTime": 42.1,
+          "endTime": 42.63333333333333,
+          "duration": 0.5333333333333314,
+          "span": 32,
+          "score": 0.91
+        },
+        {
+          "cycle": 58,
+          "startFrame": 2558,
+          "endFrame": 2590,
+          "startTime": 42.63333333333333,
+          "endTime": 43.166666666666664,
+          "duration": 0.5333333333333314,
+          "span": 32,
+          "score": 0.91
+        },
+        {
+          "cycle": 59,
+          "startFrame": 2590,
+          "endFrame": 2623,
+          "startTime": 43.166666666666664,
+          "endTime": 43.71666666666667,
+          "duration": 0.5500000000000043,
+          "span": 33,
+          "score": 0.92
+        },
+        {
+          "cycle": 60,
+          "startFrame": 2623,
+          "endFrame": 2659,
+          "startTime": 43.71666666666667,
+          "endTime": 44.31666666666666,
+          "duration": 0.5999999999999943,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 61,
+          "startFrame": 2659,
+          "endFrame": 2693,
+          "startTime": 44.31666666666666,
+          "endTime": 44.88333333333333,
+          "duration": 0.56666666666667,
+          "span": 34,
+          "score": 0.93
+        },
+        {
+          "cycle": 62,
+          "startFrame": 2693,
+          "endFrame": 2729,
+          "startTime": 44.88333333333333,
+          "endTime": 45.483333333333334,
+          "duration": 0.6000000000000014,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 63,
+          "startFrame": 2729,
+          "endFrame": 2766,
+          "startTime": 45.483333333333334,
+          "endTime": 46.1,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 64,
+          "startFrame": 2766,
+          "endFrame": 2801,
+          "startTime": 46.1,
+          "endTime": 46.68333333333333,
+          "duration": 0.5833333333333286,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 65,
+          "startFrame": 2801,
+          "endFrame": 2840,
+          "startTime": 46.68333333333333,
+          "endTime": 47.333333333333336,
+          "duration": 0.6500000000000057,
+          "span": 39,
+          "score": 0.96
+        },
+        {
+          "cycle": 66,
+          "startFrame": 2840,
+          "endFrame": 2874,
+          "startTime": 47.333333333333336,
+          "endTime": 47.9,
+          "duration": 0.5666666666666629,
+          "span": 34,
+          "score": 0.93
+        },
+        {
+          "cycle": 67,
+          "startFrame": 2874,
+          "endFrame": 2909,
+          "startTime": 47.9,
+          "endTime": 48.483333333333334,
+          "duration": 0.5833333333333357,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 68,
+          "startFrame": 2909,
+          "endFrame": 2941,
+          "startTime": 48.483333333333334,
+          "endTime": 49.016666666666666,
+          "duration": 0.5333333333333314,
+          "span": 32,
+          "score": 0.91
+        },
+        {
+          "cycle": 69,
+          "startFrame": 2941,
+          "endFrame": 3004,
+          "startTime": 49.016666666666666,
+          "endTime": 50.06666666666666,
+          "duration": 1.0499999999999972,
+          "span": 63,
+          "score": 0.83
+        },
+        {
+          "cycle": 70,
+          "startFrame": 3004,
+          "endFrame": 3039,
+          "startTime": 50.06666666666666,
+          "endTime": 50.65,
+          "duration": 0.5833333333333357,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 71,
+          "startFrame": 3039,
+          "endFrame": 3072,
+          "startTime": 50.65,
+          "endTime": 51.2,
+          "duration": 0.5500000000000043,
+          "span": 33,
+          "score": 0.92
+        },
+        {
+          "cycle": 72,
+          "startFrame": 3072,
+          "endFrame": 3110,
+          "startTime": 51.2,
+          "endTime": 51.833333333333336,
+          "duration": 0.6333333333333329,
+          "span": 38,
+          "score": 0.95
+        },
+        {
+          "cycle": 73,
+          "startFrame": 3110,
+          "endFrame": 3144,
+          "startTime": 51.833333333333336,
+          "endTime": 52.4,
+          "duration": 0.5666666666666629,
+          "span": 34,
+          "score": 0.93
+        },
+        {
+          "cycle": 74,
+          "startFrame": 3144,
+          "endFrame": 3179,
+          "startTime": 52.4,
+          "endTime": 52.983333333333334,
+          "duration": 0.5833333333333357,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 75,
+          "startFrame": 3179,
+          "endFrame": 3217,
+          "startTime": 52.983333333333334,
+          "endTime": 53.61666666666667,
+          "duration": 0.6333333333333329,
+          "span": 38,
+          "score": 0.95
+        },
+        {
+          "cycle": 76,
+          "startFrame": 3217,
+          "endFrame": 3260,
+          "startTime": 53.61666666666667,
+          "endTime": 54.333333333333336,
+          "duration": 0.7166666666666686,
+          "span": 43,
+          "score": 0.94
+        },
+        {
+          "cycle": 77,
+          "startFrame": 3260,
+          "endFrame": 3296,
+          "startTime": 54.333333333333336,
+          "endTime": 54.93333333333333,
+          "duration": 0.5999999999999943,
+          "span": 36,
+          "score": 0.94
+        },
+        {
+          "cycle": 78,
+          "startFrame": 3296,
+          "endFrame": 3331,
+          "startTime": 54.93333333333333,
+          "endTime": 55.516666666666666,
+          "duration": 0.5833333333333357,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 79,
+          "startFrame": 3331,
+          "endFrame": 3373,
+          "startTime": 55.516666666666666,
+          "endTime": 56.21666666666667,
+          "duration": 0.7000000000000028,
+          "span": 42,
+          "score": 0.95
+        },
+        {
+          "cycle": 80,
+          "startFrame": 3373,
+          "endFrame": 3408,
+          "startTime": 56.21666666666667,
+          "endTime": 56.8,
+          "duration": 0.5833333333333286,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 81,
+          "startFrame": 3408,
+          "endFrame": 3434,
+          "startTime": 56.8,
+          "endTime": 57.233333333333334,
+          "duration": 0.4333333333333371,
+          "span": 26,
+          "score": 0.88
+        },
+        {
+          "cycle": 82,
+          "startFrame": 3434,
+          "endFrame": 3464,
+          "startTime": 57.233333333333334,
+          "endTime": 57.733333333333334,
+          "duration": 0.5,
+          "span": 30,
+          "score": 0.9
+        },
+        {
+          "cycle": 83,
+          "startFrame": 3464,
+          "endFrame": 3499,
+          "startTime": 57.733333333333334,
+          "endTime": 58.31666666666666,
+          "duration": 0.5833333333333286,
+          "span": 35,
+          "score": 0.93
+        },
+        {
+          "cycle": 84,
+          "startFrame": 3499,
+          "endFrame": 3526,
+          "startTime": 58.31666666666666,
+          "endTime": 58.766666666666666,
+          "duration": 0.45000000000000284,
+          "span": 27,
+          "score": 0.88
+        },
+        {
+          "cycle": 85,
+          "startFrame": 3526,
+          "endFrame": 3563,
+          "startTime": 58.766666666666666,
+          "endTime": 59.38333333333333,
+          "duration": 0.6166666666666671,
+          "span": 37,
+          "score": 0.94
+        },
+        {
+          "cycle": 86,
+          "startFrame": 3563,
+          "endFrame": 3603,
+          "startTime": 59.38333333333333,
+          "endTime": 60.05,
+          "duration": 0.6666666666666643,
+          "span": 40,
+          "score": 0.96
+        },
+        {
+          "cycle": 87,
+          "startFrame": 3603,
+          "endFrame": 3631,
+          "startTime": 60.05,
+          "endTime": 60.516666666666666,
+          "duration": 0.46666666666666856,
+          "span": 28,
+          "score": 0.89
+        },
+        {
+          "cycle": 88,
+          "startFrame": 3631,
+          "endFrame": 3684,
+          "startTime": 60.516666666666666,
+          "endTime": 61.4,
+          "duration": 0.8833333333333329,
+          "span": 53,
+          "score": 0.89
+        },
+        {
+          "cycle": 89,
+          "startFrame": 3684,
+          "endFrame": 3710,
+          "startTime": 61.4,
+          "endTime": 61.833333333333336,
+          "duration": 0.4333333333333371,
+          "span": 26,
+          "score": 0.88
+        }
+      ],
+      "seeds": [
+        {
+          "cycle": 9,
+          "startFrame": 554,
+          "endFrame": 594,
+          "startTime": 9.233333333333333,
+          "endTime": 9.9,
+          "duration": 0.6666666666666679,
+          "span": 40,
+          "score": 0.96
+        },
+        {
+          "cycle": 10,
+          "startFrame": 594,
+          "endFrame": 635,
+          "startTime": 9.9,
+          "endTime": 10.583333333333334,
+          "duration": 0.6833333333333336,
+          "span": 41,
+          "score": 0.96
+        },
+        {
+          "cycle": 14,
+          "startFrame": 754,
+          "endFrame": 793,
+          "startTime": 12.566666666666666,
+          "endTime": 13.216666666666667,
+          "duration": 0.6500000000000004,
+          "span": 39,
+          "score": 0.96
+        }
+      ],
+      "intervals": [
+        {
+          "cycle": 0,
+          "startFrame": 116,
+          "endFrame": 173,
+          "startTime": 1.9333333333333333,
+          "endTime": 2.8833333333333333,
+          "duration": 0.95
+        },
+        {
+          "cycle": 1,
+          "startFrame": 173,
+          "endFrame": 220,
+          "startTime": 2.8833333333333333,
+          "endTime": 3.6666666666666665,
+          "duration": 0.7833333333333332
+        },
+        {
+          "cycle": 2,
+          "startFrame": 220,
+          "endFrame": 264,
+          "startTime": 3.6666666666666665,
+          "endTime": 4.4,
+          "duration": 0.7333333333333338
+        },
+        {
+          "cycle": 3,
+          "startFrame": 264,
+          "endFrame": 308,
+          "startTime": 4.4,
+          "endTime": 5.133333333333333,
+          "duration": 0.7333333333333325
+        },
+        {
+          "cycle": 4,
+          "startFrame": 308,
+          "endFrame": 352,
+          "startTime": 5.133333333333333,
+          "endTime": 5.866666666666666,
+          "duration": 0.7333333333333334
+        },
+        {
+          "cycle": 5,
+          "startFrame": 352,
+          "endFrame": 396,
+          "startTime": 5.866666666666666,
+          "endTime": 6.6,
+          "duration": 0.7333333333333334
+        },
+        {
+          "cycle": 6,
+          "startFrame": 396,
+          "endFrame": 460,
+          "startTime": 6.6,
+          "endTime": 7.666666666666667,
+          "duration": 1.0666666666666673
+        },
+        {
+          "cycle": 7,
+          "startFrame": 460,
+          "endFrame": 508,
+          "startTime": 7.666666666666667,
+          "endTime": 8.466666666666667,
+          "duration": 0.7999999999999998
+        },
+        {
+          "cycle": 8,
+          "startFrame": 508,
+          "endFrame": 554,
+          "startTime": 8.466666666666667,
+          "endTime": 9.233333333333333,
+          "duration": 0.7666666666666657
+        },
+        {
+          "cycle": 9,
+          "startFrame": 554,
+          "endFrame": 594,
+          "startTime": 9.233333333333333,
+          "endTime": 9.9,
+          "duration": 0.6666666666666679
+        },
+        {
+          "cycle": 10,
+          "startFrame": 594,
+          "endFrame": 635,
+          "startTime": 9.9,
+          "endTime": 10.583333333333334,
+          "duration": 0.6833333333333336
+        },
+        {
+          "cycle": 11,
+          "startFrame": 635,
+          "endFrame": 672,
+          "startTime": 10.583333333333334,
+          "endTime": 11.2,
+          "duration": 0.6166666666666654
+        },
+        {
+          "cycle": 12,
+          "startFrame": 672,
+          "endFrame": 716,
+          "startTime": 11.2,
+          "endTime": 11.933333333333334,
+          "duration": 0.7333333333333343
+        },
+        {
+          "cycle": 13,
+          "startFrame": 716,
+          "endFrame": 754,
+          "startTime": 11.933333333333334,
+          "endTime": 12.566666666666666,
+          "duration": 0.6333333333333329
+        },
+        {
+          "cycle": 14,
+          "startFrame": 754,
+          "endFrame": 793,
+          "startTime": 12.566666666666666,
+          "endTime": 13.216666666666667,
+          "duration": 0.6500000000000004
+        },
+        {
+          "cycle": 15,
+          "startFrame": 793,
+          "endFrame": 847,
+          "startTime": 13.216666666666667,
+          "endTime": 14.116666666666667,
+          "duration": 0.9000000000000004
+        },
+        {
+          "cycle": 16,
+          "startFrame": 847,
+          "endFrame": 921,
+          "startTime": 14.116666666666667,
+          "endTime": 15.35,
+          "duration": 1.2333333333333325
+        },
+        {
+          "cycle": 17,
+          "startFrame": 921,
+          "endFrame": 964,
+          "startTime": 15.35,
+          "endTime": 16.066666666666666,
+          "duration": 0.7166666666666668
+        },
+        {
+          "cycle": 18,
+          "startFrame": 964,
+          "endFrame": 999,
+          "startTime": 16.066666666666666,
+          "endTime": 16.65,
+          "duration": 0.5833333333333321
+        },
+        {
+          "cycle": 19,
+          "startFrame": 999,
+          "endFrame": 1035,
+          "startTime": 16.65,
+          "endTime": 17.25,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 20,
+          "startFrame": 1035,
+          "endFrame": 1077,
+          "startTime": 17.25,
+          "endTime": 17.95,
+          "duration": 0.6999999999999993
+        },
+        {
+          "cycle": 21,
+          "startFrame": 1077,
+          "endFrame": 1114,
+          "startTime": 17.95,
+          "endTime": 18.566666666666666,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 22,
+          "startFrame": 1114,
+          "endFrame": 1153,
+          "startTime": 18.566666666666666,
+          "endTime": 19.216666666666665,
+          "duration": 0.6499999999999986
+        },
+        {
+          "cycle": 23,
+          "startFrame": 1153,
+          "endFrame": 1189,
+          "startTime": 19.216666666666665,
+          "endTime": 19.816666666666666,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 24,
+          "startFrame": 1189,
+          "endFrame": 1227,
+          "startTime": 19.816666666666666,
+          "endTime": 20.45,
+          "duration": 0.6333333333333329
+        },
+        {
+          "cycle": 25,
+          "startFrame": 1227,
+          "endFrame": 1264,
+          "startTime": 20.45,
+          "endTime": 21.066666666666666,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 26,
+          "startFrame": 1264,
+          "endFrame": 1300,
+          "startTime": 21.066666666666666,
+          "endTime": 21.666666666666668,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 27,
+          "startFrame": 1300,
+          "endFrame": 1336,
+          "startTime": 21.666666666666668,
+          "endTime": 22.266666666666666,
+          "duration": 0.5999999999999979
+        },
+        {
+          "cycle": 28,
+          "startFrame": 1336,
+          "endFrame": 1373,
+          "startTime": 22.266666666666666,
+          "endTime": 22.883333333333333,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 29,
+          "startFrame": 1373,
+          "endFrame": 1414,
+          "startTime": 22.883333333333333,
+          "endTime": 23.566666666666666,
+          "duration": 0.6833333333333336
+        },
+        {
+          "cycle": 30,
+          "startFrame": 1414,
+          "endFrame": 1448,
+          "startTime": 23.566666666666666,
+          "endTime": 24.133333333333333,
+          "duration": 0.5666666666666664
+        },
+        {
+          "cycle": 31,
+          "startFrame": 1448,
+          "endFrame": 1484,
+          "startTime": 24.133333333333333,
+          "endTime": 24.733333333333334,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 32,
+          "startFrame": 1484,
+          "endFrame": 1569,
+          "startTime": 24.733333333333334,
+          "endTime": 26.15,
+          "duration": 1.4166666666666643
+        },
+        {
+          "cycle": 33,
+          "startFrame": 1569,
+          "endFrame": 1625,
+          "startTime": 26.15,
+          "endTime": 27.083333333333332,
+          "duration": 0.9333333333333336
+        },
+        {
+          "cycle": 34,
+          "startFrame": 1625,
+          "endFrame": 1661,
+          "startTime": 27.083333333333332,
+          "endTime": 27.683333333333334,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 35,
+          "startFrame": 1661,
+          "endFrame": 1697,
+          "startTime": 27.683333333333334,
+          "endTime": 28.28333333333333,
+          "duration": 0.5999999999999979
+        },
+        {
+          "cycle": 36,
+          "startFrame": 1697,
+          "endFrame": 1736,
+          "startTime": 28.28333333333333,
+          "endTime": 28.933333333333334,
+          "duration": 0.6500000000000021
+        },
+        {
+          "cycle": 37,
+          "startFrame": 1736,
+          "endFrame": 1769,
+          "startTime": 28.933333333333334,
+          "endTime": 29.483333333333334,
+          "duration": 0.5500000000000007
+        },
+        {
+          "cycle": 38,
+          "startFrame": 1769,
+          "endFrame": 1802,
+          "startTime": 29.483333333333334,
+          "endTime": 30.03333333333333,
+          "duration": 0.5499999999999972
+        },
+        {
+          "cycle": 39,
+          "startFrame": 1802,
+          "endFrame": 1834,
+          "startTime": 30.03333333333333,
+          "endTime": 30.566666666666666,
+          "duration": 0.533333333333335
+        },
+        {
+          "cycle": 40,
+          "startFrame": 1834,
+          "endFrame": 1877,
+          "startTime": 30.566666666666666,
+          "endTime": 31.28333333333333,
+          "duration": 0.716666666666665
+        },
+        {
+          "cycle": 41,
+          "startFrame": 1877,
+          "endFrame": 1913,
+          "startTime": 31.28333333333333,
+          "endTime": 31.883333333333333,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 42,
+          "startFrame": 1913,
+          "endFrame": 1956,
+          "startTime": 31.883333333333333,
+          "endTime": 32.6,
+          "duration": 0.7166666666666686
+        },
+        {
+          "cycle": 43,
+          "startFrame": 1956,
+          "endFrame": 1990,
+          "startTime": 32.6,
+          "endTime": 33.166666666666664,
+          "duration": 0.5666666666666629
+        },
+        {
+          "cycle": 44,
+          "startFrame": 1990,
+          "endFrame": 2029,
+          "startTime": 33.166666666666664,
+          "endTime": 33.81666666666666,
+          "duration": 0.6499999999999986
+        },
+        {
+          "cycle": 45,
+          "startFrame": 2029,
+          "endFrame": 2068,
+          "startTime": 33.81666666666666,
+          "endTime": 34.46666666666667,
+          "duration": 0.6500000000000057
+        },
+        {
+          "cycle": 46,
+          "startFrame": 2068,
+          "endFrame": 2105,
+          "startTime": 34.46666666666667,
+          "endTime": 35.083333333333336,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 47,
+          "startFrame": 2105,
+          "endFrame": 2141,
+          "startTime": 35.083333333333336,
+          "endTime": 35.68333333333333,
+          "duration": 0.5999999999999943
+        },
+        {
+          "cycle": 48,
+          "startFrame": 2141,
+          "endFrame": 2185,
+          "startTime": 35.68333333333333,
+          "endTime": 36.416666666666664,
+          "duration": 0.7333333333333343
+        },
+        {
+          "cycle": 49,
+          "startFrame": 2185,
+          "endFrame": 2214,
+          "startTime": 36.416666666666664,
+          "endTime": 36.9,
+          "duration": 0.4833333333333343
+        },
+        {
+          "cycle": 50,
+          "startFrame": 2214,
+          "endFrame": 2267,
+          "startTime": 36.9,
+          "endTime": 37.78333333333333,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 51,
+          "startFrame": 2267,
+          "endFrame": 2299,
+          "startTime": 37.78333333333333,
+          "endTime": 38.31666666666666,
+          "duration": 0.5333333333333314
+        },
+        {
+          "cycle": 52,
+          "startFrame": 2299,
+          "endFrame": 2335,
+          "startTime": 38.31666666666666,
+          "endTime": 38.916666666666664,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 53,
+          "startFrame": 2335,
+          "endFrame": 2368,
+          "startTime": 38.916666666666664,
+          "endTime": 39.46666666666667,
+          "duration": 0.5500000000000043
+        },
+        {
+          "cycle": 54,
+          "startFrame": 2368,
+          "endFrame": 2403,
+          "startTime": 39.46666666666667,
+          "endTime": 40.05,
+          "duration": 0.5833333333333286
+        },
+        {
+          "cycle": 55,
+          "startFrame": 2403,
+          "endFrame": 2492,
+          "startTime": 40.05,
+          "endTime": 41.53333333333333,
+          "duration": 1.4833333333333343
+        },
+        {
+          "cycle": 56,
+          "startFrame": 2492,
+          "endFrame": 2526,
+          "startTime": 41.53333333333333,
+          "endTime": 42.1,
+          "duration": 0.56666666666667
+        },
+        {
+          "cycle": 57,
+          "startFrame": 2526,
+          "endFrame": 2558,
+          "startTime": 42.1,
+          "endTime": 42.63333333333333,
+          "duration": 0.5333333333333314
+        },
+        {
+          "cycle": 58,
+          "startFrame": 2558,
+          "endFrame": 2590,
+          "startTime": 42.63333333333333,
+          "endTime": 43.166666666666664,
+          "duration": 0.5333333333333314
+        },
+        {
+          "cycle": 59,
+          "startFrame": 2590,
+          "endFrame": 2623,
+          "startTime": 43.166666666666664,
+          "endTime": 43.71666666666667,
+          "duration": 0.5500000000000043
+        },
+        {
+          "cycle": 60,
+          "startFrame": 2623,
+          "endFrame": 2659,
+          "startTime": 43.71666666666667,
+          "endTime": 44.31666666666666,
+          "duration": 0.5999999999999943
+        },
+        {
+          "cycle": 61,
+          "startFrame": 2659,
+          "endFrame": 2693,
+          "startTime": 44.31666666666666,
+          "endTime": 44.88333333333333,
+          "duration": 0.56666666666667
+        },
+        {
+          "cycle": 62,
+          "startFrame": 2693,
+          "endFrame": 2729,
+          "startTime": 44.88333333333333,
+          "endTime": 45.483333333333334,
+          "duration": 0.6000000000000014
+        },
+        {
+          "cycle": 63,
+          "startFrame": 2729,
+          "endFrame": 2766,
+          "startTime": 45.483333333333334,
+          "endTime": 46.1,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 64,
+          "startFrame": 2766,
+          "endFrame": 2801,
+          "startTime": 46.1,
+          "endTime": 46.68333333333333,
+          "duration": 0.5833333333333286
+        },
+        {
+          "cycle": 65,
+          "startFrame": 2801,
+          "endFrame": 2840,
+          "startTime": 46.68333333333333,
+          "endTime": 47.333333333333336,
+          "duration": 0.6500000000000057
+        },
+        {
+          "cycle": 66,
+          "startFrame": 2840,
+          "endFrame": 2874,
+          "startTime": 47.333333333333336,
+          "endTime": 47.9,
+          "duration": 0.5666666666666629
+        },
+        {
+          "cycle": 67,
+          "startFrame": 2874,
+          "endFrame": 2909,
+          "startTime": 47.9,
+          "endTime": 48.483333333333334,
+          "duration": 0.5833333333333357
+        },
+        {
+          "cycle": 68,
+          "startFrame": 2909,
+          "endFrame": 2941,
+          "startTime": 48.483333333333334,
+          "endTime": 49.016666666666666,
+          "duration": 0.5333333333333314
+        },
+        {
+          "cycle": 69,
+          "startFrame": 2941,
+          "endFrame": 3004,
+          "startTime": 49.016666666666666,
+          "endTime": 50.06666666666666,
+          "duration": 1.0499999999999972
+        },
+        {
+          "cycle": 70,
+          "startFrame": 3004,
+          "endFrame": 3039,
+          "startTime": 50.06666666666666,
+          "endTime": 50.65,
+          "duration": 0.5833333333333357
+        },
+        {
+          "cycle": 71,
+          "startFrame": 3039,
+          "endFrame": 3072,
+          "startTime": 50.65,
+          "endTime": 51.2,
+          "duration": 0.5500000000000043
+        },
+        {
+          "cycle": 72,
+          "startFrame": 3072,
+          "endFrame": 3110,
+          "startTime": 51.2,
+          "endTime": 51.833333333333336,
+          "duration": 0.6333333333333329
+        },
+        {
+          "cycle": 73,
+          "startFrame": 3110,
+          "endFrame": 3144,
+          "startTime": 51.833333333333336,
+          "endTime": 52.4,
+          "duration": 0.5666666666666629
+        },
+        {
+          "cycle": 74,
+          "startFrame": 3144,
+          "endFrame": 3179,
+          "startTime": 52.4,
+          "endTime": 52.983333333333334,
+          "duration": 0.5833333333333357
+        },
+        {
+          "cycle": 75,
+          "startFrame": 3179,
+          "endFrame": 3217,
+          "startTime": 52.983333333333334,
+          "endTime": 53.61666666666667,
+          "duration": 0.6333333333333329
+        },
+        {
+          "cycle": 76,
+          "startFrame": 3217,
+          "endFrame": 3260,
+          "startTime": 53.61666666666667,
+          "endTime": 54.333333333333336,
+          "duration": 0.7166666666666686
+        },
+        {
+          "cycle": 77,
+          "startFrame": 3260,
+          "endFrame": 3296,
+          "startTime": 54.333333333333336,
+          "endTime": 54.93333333333333,
+          "duration": 0.5999999999999943
+        },
+        {
+          "cycle": 78,
+          "startFrame": 3296,
+          "endFrame": 3331,
+          "startTime": 54.93333333333333,
+          "endTime": 55.516666666666666,
+          "duration": 0.5833333333333357
+        },
+        {
+          "cycle": 79,
+          "startFrame": 3331,
+          "endFrame": 3373,
+          "startTime": 55.516666666666666,
+          "endTime": 56.21666666666667,
+          "duration": 0.7000000000000028
+        },
+        {
+          "cycle": 80,
+          "startFrame": 3373,
+          "endFrame": 3408,
+          "startTime": 56.21666666666667,
+          "endTime": 56.8,
+          "duration": 0.5833333333333286
+        },
+        {
+          "cycle": 81,
+          "startFrame": 3408,
+          "endFrame": 3434,
+          "startTime": 56.8,
+          "endTime": 57.233333333333334,
+          "duration": 0.4333333333333371
+        },
+        {
+          "cycle": 82,
+          "startFrame": 3434,
+          "endFrame": 3464,
+          "startTime": 57.233333333333334,
+          "endTime": 57.733333333333334,
+          "duration": 0.5
+        },
+        {
+          "cycle": 83,
+          "startFrame": 3464,
+          "endFrame": 3499,
+          "startTime": 57.733333333333334,
+          "endTime": 58.31666666666666,
+          "duration": 0.5833333333333286
+        },
+        {
+          "cycle": 84,
+          "startFrame": 3499,
+          "endFrame": 3526,
+          "startTime": 58.31666666666666,
+          "endTime": 58.766666666666666,
+          "duration": 0.45000000000000284
+        },
+        {
+          "cycle": 85,
+          "startFrame": 3526,
+          "endFrame": 3563,
+          "startTime": 58.766666666666666,
+          "endTime": 59.38333333333333,
+          "duration": 0.6166666666666671
+        },
+        {
+          "cycle": 86,
+          "startFrame": 3563,
+          "endFrame": 3603,
+          "startTime": 59.38333333333333,
+          "endTime": 60.05,
+          "duration": 0.6666666666666643
+        },
+        {
+          "cycle": 87,
+          "startFrame": 3603,
+          "endFrame": 3631,
+          "startTime": 60.05,
+          "endTime": 60.516666666666666,
+          "duration": 0.46666666666666856
+        },
+        {
+          "cycle": 88,
+          "startFrame": 3631,
+          "endFrame": 3684,
+          "startTime": 60.516666666666666,
+          "endTime": 61.4,
+          "duration": 0.8833333333333329
+        },
+        {
+          "cycle": 89,
+          "startFrame": 3684,
+          "endFrame": 3710,
+          "startTime": 61.4,
+          "endTime": 61.833333333333336,
+          "duration": 0.4333333333333371
+        }
+      ]
+    }
+  ]
+}
