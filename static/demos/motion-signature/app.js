@@ -9,7 +9,6 @@ const state = {
   startedAt: performance.now(),
   staticDirty: true,
   activeSeedIndex: 0,
-  videoLoopCount: 0,
   lastFrameAt: 0
 };
 
@@ -185,7 +184,6 @@ function renderSeedList(item) {
 async function setTechnique(nextIndex) {
   const total = state.manifest.techniques.length;
   state.index = (nextIndex + total) % total;
-  state.videoLoopCount = 0;
   const item = currentTechnique();
   const targetIndex = state.index;
 
@@ -859,13 +857,7 @@ async function init() {
   }
   els.video.addEventListener('ended', () => {
     if (embedMode === 'engine') return;
-    state.videoLoopCount += 1;
-    if (state.videoLoopCount >= 3) {
-      setTechnique(state.index + 1);
-      return;
-    }
-    els.video.currentTime = 0;
-    els.video.play().catch(() => {});
+    setTechnique(state.index + 1);
   });
   window.addEventListener('resize', () => {
     state.staticDirty = true;
