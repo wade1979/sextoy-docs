@@ -57,6 +57,11 @@ const config: Config = {
           label: 'User Guide',
         },
         {
+          to: '/guide/videos/',
+          label: 'Guide Videos',
+          position: 'left',
+        },
+        {
           to: '/support/',
           label: 'Support',
           position: 'left',

@@ -8,6 +8,7 @@ const sidebars: SidebarsConfig = {
       label: 'User Guide',
       items: [
         'guide/device-overview',
+        'guide/videos',
         'guide/quick-start',
         'guide/motion-intelligence',
         'guide/device-wifi-token',
