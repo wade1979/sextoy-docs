@@ -7,3 +7,10 @@ yarn-debug.log*
 yarn-error.log*
 static/videos/guide/*
 !static/videos/guide/.gitkeep
+
+# Internal promo video generated artifacts
+__pycache__/
+*.pyc
+output/.DS_Store
+output/*.mp4
+output/internal_promo_build/
