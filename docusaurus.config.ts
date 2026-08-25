@@ -6,7 +6,7 @@ const config: Config = {
   tagline: 'A practical guide for device token access, activation, and core modes.',
   favicon: 'img/logo.svg',
 
-  url: 'https://docs.example.com',
+  url: 'https://docs.getpulsar.io',
   baseUrl: '/',
 
   organizationName: 'pulsar',

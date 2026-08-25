@@ -47,7 +47,7 @@ function extractMarkdown(html, sourcePath) {
     .replace(/<header><h1>/g, '<h1>')
     .replace(/<\/h1><\/header>/g, '</h1>')
     .replace(/src="\//g, `src="file://${buildDir}/`)
-    .replace(/href="\//g, 'href="https://docs.example.com/');
+    .replace(/href="\//g, 'href="https://docs.getpulsar.io/');
 }
 
 function renderPrintHtml(target) {
