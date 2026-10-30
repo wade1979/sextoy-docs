@@ -8,9 +8,19 @@ import VideoPlaceholder from '@site/src/components/VideoPlaceholder';
 
 # AI Companion
 
+<div className="guide-version-notice">
+
+:::note Guide being updated
+
+We’re continuing to update this guide. Some screenshots, features, and instructions **may reflect an earlier product version** and differ from the current interface. For help, contact [support@pulsarfuture.com](mailto:support@pulsarfuture.com).
+
+:::
+
+</div>
+
 `AI Companion` is the primary interactive experience of the product. In this mode, the user starts a session with an AI character. The character can talk with the user, respond during the session, and drive device movement at the same time.
 
-The movement rhythm is not a fixed pattern. The system combines the selected AI character's personality settings with what it has learned from the user's previous sessions. As the user continues using the product, the AI character remembers and learns from interaction history, preferences, and saved context. This helps the system choose more suitable rhythm, pacing, and intensity for a deeper immersive experience.
+The movement rhythm is not a fixed pattern. The system combines the selected AI character's personality settings with what it has learned from the user's previous sessions. Structured motion preferences can be saved to inform future sessions; this is distinct from retaining voice inputs or transcripts as persistent conversation history. This helps the system choose more suitable rhythm, pacing, and intensity for a deeper immersive experience.
 
 Users can choose from official recommended characters or create their own custom characters. Official characters are ready to use, while custom characters let the user define a more personal companion style.
 
@@ -55,6 +65,12 @@ AI characters will continue to learn and adapt to the user's preferences based o
     style={{width: '100%', maxWidth: '360px'}}
   />
 </div>
+
+## Data and Included Features
+
+Before starting, review [AI voice, conversations and processing services](/legal/ai-data-practices/#ai-voice-and-conversations). Whisper is self-hosted; Qwen is accessed through OpenRouter. Saved motion preferences can be associated with your account or AI Character and have a default two-year retention period. Preference deletion and disabling Adaptive Learning are planned controls, not current app options. See [retention and controls](/legal/ai-data-practices/#retention-and-controls).
+
+For the core features included without an ongoing subscription, see [Technical FAQ: included AI features](https://getpulsar.io/support/technical-faq#core-subscription). For the motion system, explore [Motion Intelligence](https://getpulsar.io/technology/motion-intelligence).
 
 ## 3. Start a Session
 

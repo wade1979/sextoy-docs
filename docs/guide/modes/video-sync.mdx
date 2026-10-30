@@ -7,9 +7,25 @@ import VideoPlaceholder from '@site/src/components/VideoPlaceholder';
 
 # Video Sync
 
+<div className="guide-version-notice">
+
+:::note Guide being updated
+
+We’re continuing to update this guide. Some screenshots, features, and instructions **may reflect an earlier product version** and differ from the current interface. For help, contact [support@pulsarfuture.com](mailto:support@pulsarfuture.com).
+
+:::
+
+</div>
+
 Watch. Feel. Immerse.
 
 `Video Sync` turns compatible video content into a synchronized interactive experience. Whether the user is watching a local video, streaming content from a supported platform, or enjoying immersive VR scenes, Pulsar aligns device motion with what is happening on screen to create a deeper sense of presence and realism.
+
+## Before You Choose a Source
+
+Local video and audio stay on your device, while selected derived signals are sent to the motion engine. Uploaded Funscript files are processed on the server. Session-derived signals, automatically generated motor commands and uploaded scripts are deleted after the session ends. See [local-video and Funscript data handling](/legal/ai-data-practices/#local-video-processing).
+
+For buying decisions, check [Funscript motion behavior](https://getpulsar.io/support/technical-faq#funscript-motion) and [your browser, headset or player combination](https://getpulsar.io/support/technical-faq#browsers-vr-players). Local-video data practices do not establish the same path for online video, VR or live calls.
 
 ## Supported Content Sources
 
@@ -61,7 +77,7 @@ Each experience becomes increasingly personalized.
 
 ### Script-Based Sync
 
-For users who prefer full control, Video Sync supports uploaded Funscript files for frame-accurate synchronization with favorite content.
+Video Sync supports uploaded standard Funscript files. The server motion engine dynamically converts scripted position changes into executable motion, primarily following rhythm and timing rather than strict position tracking. Smoothing, movement merging and speed limits can change details. See [how Funscript motion works](https://getpulsar.io/support/technical-faq#funscript-motion) and [script upload and deletion](/legal/ai-data-practices/#uploaded-funscript).
 
 Pulsar supports the industry-standard Funscript format and is compatible with content created by thousands of creators across the global scripting community.
 

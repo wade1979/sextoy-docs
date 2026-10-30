@@ -35,11 +35,12 @@ const sidebars: SidebarsConfig = {
       label: 'Support',
       items: [
         'support/support',
+        'buying-faq',
         'faq',
         'troubleshooting/troubleshooting',
-        'support/warranty-policy',
-        'support/returns-exchanges',
-        'support/contact-support',
+        {type: 'link', label: 'Warranty Policy', href: 'https://getpulsar.io/support/warranty-policy'},
+        {type: 'link', label: 'Returns & Exchanges', href: 'https://getpulsar.io/support/returns-exchanges'},
+        {type: 'link', label: 'Contact Support', href: 'https://getpulsar.io/support/contact-support'},
       ],
     },
     {

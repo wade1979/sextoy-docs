@@ -64,6 +64,22 @@ function renderPrintHtml(target) {
   <meta charset="utf-8">
   <title>${target.title}</title>
   <style>
+
+/* Version notice on product and user guide pages only. */
+.guide-version-notice .alert {
+  background: #fff8e8;
+  border-color: #c58a24;
+  border-left-width: 4px;
+  color: #454545;
+}
+.guide-version-notice [class*="admonitionHeading"] {
+  color: #805b1e;
+  text-transform: none;
+}
+.guide-version-notice [class*="admonitionIcon"] svg { fill: #c58a24; }
+.guide-version-notice p { color: #454545; }
+.guide-version-notice a { color: #1f7a6d; }
+
     @page { size: A4; margin: 16mm 14mm; }
     * { box-sizing: border-box; }
     body {

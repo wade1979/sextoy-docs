@@ -5,38 +5,64 @@ title: AI & Data Practices
 
 # AI & Data Practices
 
-Last Updated: June 2026
+Last updated: October 17, 2026
 
-This document explains how Pulsar's AI-powered features use and process information.
+This document explains the confirmed data practices for local Video Sync, uploaded Funscript and AI Companion. It supplements the [Privacy Policy](/legal/privacy-policy/). For a shorter product overview, see the [Technical FAQ](https://getpulsar.io/support/technical-faq#privacy-data).
 
-## AI Interactions
+## Video Sync Viewing History
 
-AI features may process user inputs, preferences, interaction history, and selected settings in order to provide personalized experiences.
+Pulsar does not maintain a Video Sync viewing history containing video filenames, titles, URLs, websites or content categories. Processing information for synchronization is separate from maintaining a viewing history. The absence of a viewing history does not mean that no operational data is processed or that data cannot be associated with a device or session.
 
-## AI Memory
+## Local Video Processing
 
-Some AI features may remember preferences, interaction patterns, or user-selected settings to improve future experiences.
+Local video and audio remain on your device and are processed in your browser. Pulsar does not upload or collect the media, frames, thumbnails, filenames or file paths. Local videos are not used to train server-side AI models. Third-party SDKs are not used to upload or remotely analyze your local video content.
 
-Users may be given options to modify or reset certain remembered preferences.
+Selected derived signals needed for synchronization, including timeline, motion and contextual signals, are sent to Pulsar's server-side motion engine. Those signals and automatically generated session motor-control commands are deleted after the session ends. Session-end deletion does not mean these data are never transmitted or stored while processing takes place.
 
-## Model Providers
+These statements describe the local-video workflow. They do not establish the same processing or storage behavior for online videos, VR or live video calls.
 
-AI functionality may be provided by Pulsar and/or trusted third-party AI service providers.
+## Uploaded Funscript
 
-## Training and Model Improvement
+Funscript files are uploaded to Pulsar's servers for interpretation and motion planning, then deleted after the session ends. They are not retained as an account-history library or stored for future reuse.
 
-Unless explicitly stated otherwise, personal conversations and interaction content are not used to train public AI models.
+This server-side script-processing path is separate from local-video analysis in the browser. For how scripted positions are converted into device movements, see the [Funscript explanation](https://getpulsar.io/support/technical-faq#funscript-motion).
 
-## Live Sync Features
+## User-Entered Control Instructions
 
-Live Sync and real-time communication features are designed to transmit information necessary for the session.
+Control instructions actively entered by the user are a separate category from automatically generated session commands. They are currently stored persistently, with a default retention period of two years.
 
-Live video streams are not recorded or stored by Pulsar by default.
+## AI Voice and Conversations
 
-## User Control
+AI inputs are processed to understand instructions and generate responses. Pulsar does not retain voice inputs or conversation transcripts as persistent conversation history or use them to build a long-term personal conversation profile. This statement concerns conversation history; it is not a statement that every operational log or processing copy is absent.
 
-Users remain responsible for the information they choose to share during AI interactions, live sessions, or companion experiences.
+### Processing Services
 
-## Changes
+- **Whisper is self-hosted by Pulsar.** Using this model does not mean voice inputs are sent to OpenAI.
+- **Qwen is accessed through OpenRouter.** Relevant inputs are sent to the external service for processing. OpenRouter is the access point; this does not identify every underlying inference provider.
 
-As AI capabilities evolve, this document may be updated to reflect new features and practices.
+External services have their own data-handling and retention practices. Pulsar's default two-year retention period does not describe their retention, and no zero-retention guarantee is made for external processing. Do not interpret the local-video no-upload statement as a promise that AI conversation inputs remain on your device.
+
+## Motion Preferences and Adaptive Learning
+
+Structured motion preferences can be saved and associated with your account or AI Character to support Adaptive Learning. These preferences are distinct from persistent conversation transcripts. The default retention period for Adaptive Learning preference data is two years.
+
+## Retention and Controls
+
+| Data category | Confirmed retention boundary |
+| --- | --- |
+| Local-video derived synchronization signals | Deleted after the session ends |
+| Automatically generated session motor-control commands | Deleted after the session ends |
+| Uploaded Funscript files | Deleted after the session ends |
+| Control instructions actively entered by the user | Default retention: two years |
+| Adaptive Learning preference data | Default retention: two years |
+| Voice inputs and conversation transcripts | Not retained by Pulsar as persistent conversation history; external processing is separate |
+
+The two-year default applies to the two categories specified above. It is not a uniform retention period for all system logs, backups, voice, transcripts or external services, and does not specify an exact automatic purge mechanism at the two-year mark. Detailed operational-log, cache, backup, identifier and deletion-execution information remains under review.
+
+Preference-deletion controls and an option to disable Adaptive Learning are both planned. They are not currently available app controls, and no specific release date is confirmed. Disabling preference learning is separate from session processing needed to provide synchronization. This document does not promise an existing manual deletion workflow.
+
+For applicable privacy rights, see the [Privacy Policy](/legal/privacy-policy/). Contact [support@pulsarfuture.com](mailto:support@pulsarfuture.com) with privacy questions.
+
+## Other Modes and Further Updates
+
+The local-media statements above should not be extended to Live Sync, online video or VR without a mode-specific disclosure. Further processing, operational retention and external-provider details will be added as they are verified. This update does not establish a general training or zero-retention guarantee for every external AI provider.

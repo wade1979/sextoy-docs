@@ -90,15 +90,15 @@ const config: Config = {
             },
             {
               label: 'Warranty Policy',
-              to: '/support/warranty-policy/',
+              href: 'https://getpulsar.io/support/warranty-policy',
             },
             {
               label: 'Returns & Exchanges',
-              to: '/support/returns-exchanges/',
+              href: 'https://getpulsar.io/support/returns-exchanges',
             },
             {
               label: 'Contact Support',
-              to: '/support/contact-support/',
+              href: 'https://getpulsar.io/support/contact-support',
             },
           ],
         },
